@@ -5,3 +5,23 @@
   list-style: none;
   border: 0;
 }
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (min-width: 800px) {
+  .mobile {
+    display: none;
+  }
+}
+
+.modal-menu {
+  width: 300px;
+  height: 100%;
+}
+.modal-menu .modal-content {
+  width: 300px;
+}
+.list-group-item:hover {
+  background-color: blue !important;
+}
