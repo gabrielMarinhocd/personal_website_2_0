@@ -5,7 +5,12 @@
   list-style: none;
   border: 0;
 }
-,
+
+a.link-menu{
+  text-decoration: none;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,6 +48,28 @@ body {
 
 .col-9.content {
   padding-left: 20px;
+}
+
+#icon-download{
+  height: 12px;
+}
+
+.link-menu a {
+  line-height: 1.5px;
+  letter-spacing: 0.3px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.link-menu img {
+  max-width: 12px;
+}
+
+span#icon-download {
+  float: right;
+  padding-right: 30px;
 }
 
 /* CSS mobile */
