@@ -73,9 +73,28 @@ body {
   padding-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   border-bottom: #6285fb 0.2px solid;
+  text-decoration: dashed;
 }
 .link-menu a:hover {
   color: #ffe000;
+}
+
+.search {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+input#input-search {
+  background-color: #5077fb;
+  color: white;
+}
+
+input#input-search::placeholder {
+  color: #ffffffb0;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  /* line-height: 0.5px; */
+  letter-spacing: 0.3px;
 }
 
 span#icon-download {
