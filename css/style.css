@@ -40,6 +40,7 @@ body {
   background-color: #5077fb;
   height: 700px;
   width: 250px;
+  
 }
 
 .center {
@@ -65,6 +66,16 @@ body {
 
 .link-menu img {
   max-width: 12px;
+}
+
+.link-menu{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: #6285fb 0.2px solid;
+}
+.link-menu a:hover {
+  color: #ffe000;
 }
 
 span#icon-download {
