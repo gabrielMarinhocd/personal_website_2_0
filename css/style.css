@@ -47,10 +47,6 @@ body {
   text-align: center;
 }
 
-.col-9.content {
-  padding-left: 20px;
-}
-
 #icon-download{
   height: 12px;
 }
@@ -163,6 +159,36 @@ input#input-search::placeholder {
   color: #ffe000;
   border-color: #ffe000;
 }
+
+.home{
+  margin: 0 10px 0 10px;
+  background-color: #19202b;
+  min-height: 750px;
+  width: 100%;
+  position: relative;
+}
+
+.foto-gabriel{
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+
+#foto-gabriel {
+  border-radius: 100%;
+  width: 200px;
+  margin-top: 150px;
+}
+
+.home .content {
+  margin-top: 15%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  line-height: 1.6px;
+  letter-spacing: 1.3px;
+  font-weight: 400;
+}
+
 
 /* CSS mobile */
 
