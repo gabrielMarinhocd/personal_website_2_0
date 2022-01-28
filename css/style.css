@@ -116,7 +116,8 @@ input#input-search::placeholder {
   margin-bottom: 5px;
 }
 
-span#icon-download {
+#icon-download {
+  font-size: 10px;
   float: right;
   padding-right: 30px;
 }
