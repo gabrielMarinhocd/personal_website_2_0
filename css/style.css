@@ -219,7 +219,7 @@ input#input-search::placeholder {
 h2.title {
   padding-top: 10%;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   color: #5077fb;
   line-height: 1.6px;
   letter-spacing: 1.3px;
@@ -265,6 +265,14 @@ h2.title {
 .ed{
   cursor: pointer;
 }
+
+.project {
+  margin: 0 10px 0 10px;
+  background-color: #19202b;
+  min-height: 100%;
+  width: 100%;
+}
+
 
 /* CSS mobile */
 
