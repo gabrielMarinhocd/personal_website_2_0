@@ -39,7 +39,7 @@ body {
 .menu {
   float: left;
   background-color: #5077fb;
-  min-height: 750px;
+  height: auto;
   width: 250px;
 }
 
@@ -135,14 +135,14 @@ input#input-search::placeholder {
 }
 
 .container.social-midia {
-  margin: 20px 0 10px 0;
+  margin: 20px 0 15px 0;
 }
 
 .container.social-midia a {
   font-size: 12px;
   color: white;
   border: 1px solid #ffffff52;
-  padding: 5px;
+  padding: 5px 8px 5px 8px;
   border-radius: 15%;
 }
 
@@ -163,7 +163,7 @@ input#input-search::placeholder {
 .home{
   margin: 0 10px 0 10px;
   background-color: #19202b;
-  min-height: 750px;
+  min-height: 100%;
   width: 100%;
   position: relative;
 }
@@ -206,7 +206,7 @@ input#input-search::placeholder {
     display: none;
   }
   .logo {
-    padding: 22% 10% 22% 10%;
+    padding: 15% 10px 15% 10px;
     font-size: 12px;
     color: white;
     font-family: 'Poppins', sans-serif;
