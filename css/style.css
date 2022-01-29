@@ -246,6 +246,7 @@ h2.title {
 }
 
 .box-content {
+  display: none;
   font-size: 14px;
   margin: 0;
   padding: 15px;
@@ -261,6 +262,9 @@ h2.title {
   color: #ffe000;
 }
 
+#ced-06{
+  cursor: pointer;
+}
 
 /* CSS mobile */
 
