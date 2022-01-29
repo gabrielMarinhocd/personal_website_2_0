@@ -126,6 +126,11 @@ input#input-search::placeholder {
   margin: 5px 0px 10px 0px;
 }
 
+.higthlights .col-2 {
+  margin: 0 5px 0 5px;
+}
+
+
 .title-menu h3 {
   font-size: 12px;
   float: left;
