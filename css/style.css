@@ -6,6 +6,18 @@
   border: 0;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: #5077fb;
+  -webkit-box-shadow: inset 0 0 5px #19202b; 
+  width: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -175,8 +187,16 @@ input#input-search::placeholder {
 
 .conteudo{
   overflow-y: scroll;
+  overflow-y: hidden;
   max-height: 700px;
 }
+
+
+.conteudo:hover{
+  overflow-y: auto;
+}
+
+
 
 .home{
   margin: 0 10px 0 10px;
