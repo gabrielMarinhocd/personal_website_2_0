@@ -6,11 +6,6 @@
   border: 0;
 }
 
-a.link-menu{
-  text-decoration: none;
-  color: white;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -49,6 +44,10 @@ body {
 
 #icon-download{
   height: 12px;
+}
+
+.desktop .col-4 {
+  width: 250px;
 }
 
 .link-menu a {
@@ -165,6 +164,13 @@ input#input-search::placeholder {
   border-color: #ffe000;
 }
 
+
+/* css do conteudo */
+
+.conteudo{
+  overflow-y: scroll;
+}
+
 .home{
   margin: 0 10px 0 10px;
   background-color: #19202b;
@@ -192,6 +198,23 @@ input#input-search::placeholder {
   line-height: 1.6px;
   letter-spacing: 1.3px;
   font-weight: 400;
+}
+
+.education {
+  margin: 0 10px 0 10px;
+  background-color: #19202b;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+h2.title {
+  padding-top: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #5077fb;
+  line-height: 1.6px;
+  letter-spacing: 1.3px;
 }
 
 
