@@ -11,15 +11,6 @@ body {
   padding: 0;
 }
 
-.background-body {
-  background: url('../images/fundo.jpg');
-  background-size: cover;
-  position: relative;
-  min-height: 100vh;
-  min-width: 100%;
-  padding: 8%;
-  padding-bottom: 10px;
-}
 
 .body {
   margin: 0;
@@ -31,15 +22,29 @@ body {
   margin: 0 !important;
 }
 
+.center {
+  text-align: center;
+}
+.rigth {
+  float: right;
+}
+
+.background-body {
+  background: url('../images/fundo.jpg');
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100%;
+  padding: 8%;
+  padding-bottom: 10px;
+}
+
 .menu {
   float: left;
   background-color: #5077fb;
-  height: auto;
+  height: 100%;
+  max-height: 700px;
   width: 250px;
-}
-
-.center {
-  text-align: center;
 }
 
 #icon-download{
@@ -62,6 +67,7 @@ body {
 .link-menu img {
   max-width: 12px;
 }
+
 
 .link-menu{
   padding-top: 20px;
@@ -169,12 +175,14 @@ input#input-search::placeholder {
 
 .conteudo{
   overflow-y: scroll;
+  max-height: 700px;
 }
 
 .home{
   margin: 0 10px 0 10px;
   background-color: #19202b;
-  min-height: 100%;
+  height: 100%;
+  max-height: 700px;
   width: 100%;
   position: relative;
 }
@@ -215,6 +223,42 @@ h2.title {
   color: #5077fb;
   line-height: 1.6px;
   letter-spacing: 1.3px;
+  margin: 10px;
+}
+
+.box {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+}
+
+.box h4{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.box-title {
+  background-color: white;
+  text-align: left;
+  color: #5077fb;
+  padding: 15px 20px 15px 20px;
+}
+
+.box-content {
+  font-size: 14px;
+  margin: 0;
+  padding: 15px;
+  background-color: #f1f2f5;
+}
+
+.box-content a {
+  text-decoration: none;
+}
+
+.box-content a:hover {
+  text-decoration: none;
+  color: #ffe000;
 }
 
 
