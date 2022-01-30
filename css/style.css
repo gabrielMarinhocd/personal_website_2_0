@@ -315,10 +315,7 @@ h2.title {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-    /* flex-direction: column; */
 }
-
-
 
 .project .carousel {
   overflow: hidden;
@@ -329,7 +326,15 @@ h2.title {
   margin-top: 10%;
 }
 
+.slide{
+  position: relative;
+}
 
+.icon-slide {
+  position: absolute;
+  bottom: 40px;
+  right: 45px;
+}
 
 
 
