@@ -197,7 +197,6 @@ input#input-search::placeholder {
 
 .conteudo{
   overflow-y: scroll;
-  overflow-y: hidden;
   max-height: 700px;
 }
 
@@ -335,6 +334,35 @@ h2.title {
   bottom: 40px;
   right: 45px;
 }
+
+.icon-slide span {
+  color: #5077fb;
+  background-color: white;
+  padding: 5px;
+  margin: 0px;
+  border: none;
+  border-right: 1px solid #5077fb;
+}
+
+.icon-slide span:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5077fb;
+  padding: 5px;
+  margin: 0px;
+}
+
+.icon-slide a {
+  text-decoration: none;
+}
+
+.icon-slide a {
+  text-decoration: none;
+}
+
+
+
+
 
 
 
