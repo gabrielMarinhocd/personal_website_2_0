@@ -37,8 +37,17 @@ body {
 .center {
   text-align: center;
 }
+
 .rigth {
   float: right;
+}
+
+.left{
+  float: left;
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .background-body {
@@ -288,11 +297,40 @@ h2.title {
 }
 
 .project {
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 0 10px;
   background-color: #19202b;
   min-height: 100%;
   width: 100%;
+  padding: 10px;
+  color: white;
 }
+
+.project img {
+  padding: 30px;
+}
+
+.project .col-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+    /* flex-direction: column; */
+}
+
+
+
+.project .carousel {
+  overflow: hidden;
+  padding: 59% 0% 0% 0;
+  position: relative;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  margin-top: 10%;
+}
+
+
+
 
 
 /* CSS mobile */
