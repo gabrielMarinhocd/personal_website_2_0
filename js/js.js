@@ -34,6 +34,24 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
+let slideWork = 1;
+showDivsWork(slideWork);
+
+function plusDivsWork(n) {
+  showDivsWork(slideWork += n);
+}
+
+function showDivsWork(n) {
+  let i;
+  let x = document.getElementsByClassName("slide-work");
+  if (n > x.length) {slideWork = 1}
+  if (n < 1) {slideWork = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideWork-1].style.display = "block";
+}
+
 
 
 

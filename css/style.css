@@ -368,14 +368,50 @@ h2.title {
   text-decoration: none;
 }
 
-.work{
-  margin-left: 10px;
+
+.work {
+  margin: 10px 10px 0 10px;
   background-color: #19202bba;
-  min-height: 700px;
-  height: auto;
-  width: auto;
+  min-height: 100%;
+  width: 100%;
+  padding: 10px;
+  color: white;
 }
 
+.work img {
+  padding: 30px;
+}
+
+
+.work .col-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.work .carousel {
+  overflow: hidden;
+  padding: 59% 0% 0% 0;
+  position: relative;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  margin-top: 10%;
+}
+
+.work .col-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carrosel-work {
+  color: white;
+}
 
 
 
