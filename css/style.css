@@ -413,8 +413,63 @@ h2.title {
   color: white;
 }
 
+.gallery {
+  margin: 0 10px 0 10px;
+  background-color: #19202bba;
+  min-height: 100%;
+  width: 100%;
+}
 
+.gallery h2{
+  margin-bottom: 30px;
+}
 
+.contact{
+  margin: 10px 10px 0 10px;
+  background-color: #19202bba;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 1.3px;
+  font-weight: 400;
+}
+
+.content-social-midia .col-6 {
+  padding: 20px ;
+  padding-top: 50px;
+}
+
+.col-6.content-social-midia {
+  color: #5077fb;
+  padding: 30px 10px;
+  /* font-family: 'Montserrat'; */
+}
+
+li.social {
+  padding: 3px;
+}
+
+.icon-contato i {
+  background: #5077fb;
+  border-radius: 10px;
+  padding: 5px;
+  color: #181e29;
+  font-weight: 400;
+  margin-right: 2px;
+}
+
+.blue{
+  padding: 20px ;
+  background-color: #5077fb;;
+}
+
+.frase {
+  margin-top: 30px;
+}
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
