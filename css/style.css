@@ -458,7 +458,7 @@ li.social {
 }
 
 .blue{
-  padding: 60px ;
+  padding: 60px 30px;
   background-color: #5077fb;
 }
 
@@ -500,6 +500,11 @@ li.social {
   margin: 10px;
 }
 
+.stars a {
+  text-decoration: none;
+  color: white;
+}
+
 #submit{
   color: white;
   width: 50%;
@@ -524,6 +529,10 @@ input#submit:hover {
   font-family: 'Montserrat';
   line-height: 1.5;
   letter-spacing: 1.3px;
+}
+
+.container.contact {
+  padding: 0px 10px;
 }
 
 span.copyrigth {
