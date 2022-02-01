@@ -609,7 +609,33 @@ span#frase-name {
     color: white;
     line-height: 1.6px;
     letter-spacing: 1.3px;
-    font-weight: 400;
+    font-weight: 400; 
+  }
+
+  h2.title {
+    padding-top: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #5077fb;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    margin: 10px;
+  }
+
+  .education {
+    background-color: #19202b;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  .box h4 {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 }
