@@ -211,7 +211,7 @@ input#input-search::placeholder {
 
 .home{
   margin: 0 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   height: 100%;
   max-height: 700px;
   width: 100%;
@@ -241,7 +241,7 @@ input#input-search::placeholder {
 
 .education {
   margin: 0 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   min-height: 100%;
   width: 100%;
   position: relative;
@@ -300,7 +300,7 @@ h2.title {
 
 .project {
   margin: 10px 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   min-height: 100%;
   width: 100%;
   padding: 10px;
@@ -371,7 +371,7 @@ h2.title {
 
 .work {
   margin: 10px 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   min-height: 100%;
   width: 100%;
   padding: 10px;
@@ -415,7 +415,7 @@ h2.title {
 
 .gallery {
   margin: 0 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   min-height: 100%;
   width: 100%;
 }
@@ -426,7 +426,7 @@ h2.title {
 
 .contact{
   margin: 10px 10px 0 10px;
-  background-color: #19202bba;
+  background-color: #19202b;
   min-height: 100%;
   width: 100%;
   position: relative;
@@ -438,19 +438,14 @@ h2.title {
   font-weight: 400;
 }
 
-.content-social-midia .col-6 {
-  padding: 20px ;
-  padding-top: 50px;
-}
 
 .col-6.content-social-midia {
   color: #5077fb;
-  padding: 30px 10px;
-  /* font-family: 'Montserrat'; */
+  padding: 60px 20px;
 }
 
 li.social {
-  padding: 3px;
+  padding: 8px 0px;
 }
 
 .icon-contato i {
@@ -463,12 +458,81 @@ li.social {
 }
 
 .blue{
-  padding: 20px ;
+  padding: 60px ;
+  background-color: #5077fb;
+}
+
+.blue input{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px;
+  border: solid 0.5px;
+  border-color: rgba(255, 255, 255, 0.45);
+  border-radius: 2px;
   background-color: #5077fb;;
+}
+
+.blue textarea{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px;
+  border: solid 0.5px;
+  border-color: rgba(255, 255, 255, 0.45);
+  border-radius: 5px;
+  background-color: #5077fb;;
+}
+
+.blue input::placeholder{
+  color: white;
+  font-size: 12px;
+}
+
+.blue textarea::placeholder{
+  color: white;
+  font-size: 12px;
+}
+.blue h3{
+  font-size: 18px;
+}
+
+.stars {
+  font-size: 18px;
+  margin: 10px;
+}
+
+#submit{
+  color: white;
+  width: 50%;
+  padding: 10px;
+}
+
+
+input#submit:hover {
+  background-color: #f8f9fa;
+  color: #5077fb;
+  border: 0.5px solid #5077fb;
 }
 
 .frase {
   margin-top: 30px;
+}
+
+.copyrigth-content {
+  padding: 10%;
+  background-color: #0000001f;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+}
+
+span.copyrigth {
+  color: white;
+}
+
+span.name {
+  margin-top: 5px;
+  color: #5077fb;
 }
 /* CSS mobile */
 
