@@ -51,16 +51,7 @@ body {
   color: #5077fb;
 }
 
-.background-body {
-  margin: 0;
-  padding: 10px 20px 10px 120px;
-  background: url('../images/fundo.jpg');
-  background-size: cover;
-  position: relative;
-  min-height: 100vh;
-  min-width: 100%;
 
-}
 
 .menu {
   float: left;
@@ -424,6 +415,11 @@ h2.title {
   margin-bottom: 30px;
 }
 
+.gallery .col-4 img {
+  width: auto;
+  height: 30%;
+}
+
 .contact{
   margin: 10px 10px 0 10px;
   background-color: #19202b;
@@ -511,7 +507,8 @@ li.social {
 
 #submit{
   color: white;
-  width: 50%;
+  background-color: #f5f5f50f;
+  width: 30%;
   padding: 10px;
 }
 
@@ -524,10 +521,11 @@ input#submit:hover {
 
 .frase {
   margin-top: 30px;
+  font-family: 'Caveat', cursive;
 }
 
 .copyrigth-content {
-  padding: 10%;
+  padding: 60px;
   background-color: #000000;
   font-size: 18px;
   font-family: 'Montserrat';
@@ -547,21 +545,80 @@ span.name {
   margin-top: 5px;
   color: #5077fb;
 }
+
+span#text-name {
+  line-height: 2.5;
+  font-family: 'Montserrat';
+}
+
+span#frase-name {
+  font-size: 20px;
+}
+
+
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+  .background-body {
+    margin: 0;
+    background: url('../images/fundo.jpg');
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+  }
+
   .logo {
     max-width: 100px;
   }
   .menu {
     display: none;
   }
+
+  .conteudo {
+    overflow-y: scroll;
+    height: auto;
+    width: auto;
+  }
+
+  .foto-gabriel {
+    position: absolute;
+    top: -84px;
+    left: 30%;
+  }
+
+  #foto-gabriel {
+    border-radius: 100%;
+    width: 140px;
+    margin-top: 150px;
+  }
+
+  .home {
+    background-color: #19202b;
+    height: 100%;
+    max-height: 700px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+
+  .home .content {
+    margin-top: 35%;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.6px;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+}
+
 }
 
 @media only screen and (min-width: 800px) {
   .mobile {
     display: none;
   }
+
   .logo {
     padding: 15% 10px 15% 10px;
     font-size: 12px;
@@ -571,6 +628,19 @@ span.name {
     line-height: 2.5em;
     border-bottom: #6285fb 0.2px solid;
   }
+
+  .background-body {
+    margin: 0;
+    padding: 10px 20px 10px 120px;
+    background: url('../images/fundo.jpg');
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+  }
+
+  
+
 }
 
 .modal-menu {
