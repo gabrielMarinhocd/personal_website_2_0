@@ -457,10 +457,14 @@ li.social {
   margin-right: 2px;
 }
 
+.contact .row {
+  background: linear-gradient( 90deg, #19202b 50%, #5077fb 50%);
+}
+
 .blue{
   padding: 60px 30px;
-  background-color: #5077fb;
 }
+
 
 .blue input{
   width: 100%;
@@ -524,10 +528,10 @@ input#submit:hover {
 
 .copyrigth-content {
   padding: 10%;
-  background-color: #0000001f;
+  background-color: #000000;
   font-size: 18px;
   font-family: 'Montserrat';
-  line-height: 1.5;
+  line-height: 2.5;
   letter-spacing: 1.3px;
 }
 
