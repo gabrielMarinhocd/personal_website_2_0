@@ -564,10 +564,12 @@ span#frase-name {
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+
   
   .desktop-menu {
     display: none;
   }
+
   .modal-content {
     background-color: #5077fb;
   }
@@ -599,7 +601,8 @@ span#frase-name {
   }
 
   .mobile {
-    background-color: #5077fb;
+    background-color: #19202b;
+    border-bottom: #ffffff59 0.5px solid ;
   }
 
   .modal-header {
@@ -615,8 +618,8 @@ span#frase-name {
     font-size: 18px;
     padding: 5px 12px 5px 12px;
     border-radius: 2px;
-    background-color: #5077fb;
-    border: #6285fb 0.2px solid;
+    background-color: #19202b;
+    border: #ffffff59 0.2px solid;
     color: white;
   }
 
@@ -630,7 +633,7 @@ span#frase-name {
   }
 
   .logo {
-    max-width: 100px;
+    max-width: 70px;
   }
 
   .conteudo {
@@ -657,7 +660,7 @@ span#frase-name {
     max-height: 700px;
     width: 100%;
     position: relative;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
 
   .home .content {
