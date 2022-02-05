@@ -85,12 +85,12 @@ body {
 
 
 .link-menu{
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
   font-family: 'Poppins', sans-serif;
   border-bottom: #6285fb 0.2px solid;
-  text-decoration: dashed;
+  margin-top: 10px;
 }
+
 .link-menu a:hover {
   color: #ffe000;
 }
@@ -565,6 +565,15 @@ span#frase-name {
 
 @media only screen and (max-width: 800px) {
 
+  .home h1 {
+    font-size: 25px;
+    line-height: 1.5;
+  } 
+  
+  .home h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  } 
   
   .desktop-menu {
     display: none;
@@ -611,8 +620,9 @@ span#frase-name {
 
   .logo-modal.center img {
     height: 54px;
+    padding: 0px;
+    margin-bottom: 10px;
   }
-  
   
   button.open-menu {
     font-size: 18px;
@@ -656,7 +666,7 @@ span#frase-name {
 
   .home {
     background-color: #19202b;
-    height: 100%;
+    height: auto;
     max-height: 700px;
     width: 100%;
     position: relative;
@@ -718,6 +728,7 @@ span#frase-name {
     color: white;
   }
 
+  
   .project .col-1 {
     display: flex;
     flex-wrap: wrap;
@@ -760,6 +771,12 @@ span#frase-name {
     min-height: 100%;
     width: 100%;
     margin: auto;
+  }
+
+  .desktop .col-4 {
+    width: 50%;
+    margin: 0;
+    padding: 10px;
   }
 
   .copyrigth-content {
@@ -815,4 +832,10 @@ span#frase-name {
 }
 .list-group-item:hover {
   background-color: blue !important;
+}
+
+.pointer:hover {
+  border: #ffffff42 1px solid;
+  padding: 10px;
+  border-radius: 50%;
 }
