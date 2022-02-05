@@ -564,6 +564,63 @@ span#frase-name {
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+  
+  .desktop-menu {
+    display: none;
+  }
+  .modal-content {
+    background-color: #5077fb;
+  }
+
+  .logo-modal {
+    width: auto;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .modal-header {
+    height: 50px;
+  }
+
+  .modal-body {
+    padding-top: 0;
+  }
+
+  .modal-footer {
+    height: 50px;
+  }
+
+  .menu-modal-footer {
+    float: right;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+  }
+
+  .mobile {
+    background-color: #5077fb;
+  }
+
+  .modal-header {
+    border-color: #ffffff00;
+  }
+
+  .logo-modal.center img {
+    height: 54px;
+  }
+  
+  
+  button.open-menu {
+    font-size: 18px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 2px;
+    background-color: #5077fb;
+    border: #6285fb 0.2px solid;
+    color: white;
+  }
+
+
   .background-body {
     margin: 0;
     background: url('../images/fundo.jpg');
@@ -574,9 +631,6 @@ span#frase-name {
 
   .logo {
     max-width: 100px;
-  }
-  .menu {
-    display: none;
   }
 
   .conteudo {
@@ -718,6 +772,7 @@ span#frase-name {
 }
 
 @media only screen and (min-width: 800px) {
+
   .mobile {
     display: none;
   }
