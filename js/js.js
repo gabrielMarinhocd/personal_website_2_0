@@ -16,6 +16,39 @@ for (let i = 1; i <= 5; i++){
     })
 }
 
+const insertCarosel = () => {
+  const caroselHTML = document.querySelector('#carrosel');
+  let gradeHTML = '';
+  menu.forEach(({ id, titulo, link, img }) => {
+      gradeHTML += ` <div id="${id}" class="mySlides">
+                        <div class="slide">
+                          <img id="img-${id}" class="img-fluid" src="${img}" alt="${titulo}">
+                          <div class="icon-slide">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                              <span class="icone-git-hub">
+                                <i class="fab fa-github"></i>
+                              </span>
+                            </a>
+                            <a href="${link}" target="_blank" rel="noopener noreferrer">
+                              <span class="icon-open">
+                                <i class="fas fa-external-link-alt"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <span id="title-${id}" >${titulo} </span>
+                      </div>`;
+  });
+  
+
+  caroselHTML.innerHTML = gradeHTML;
+
+};
+
+
+insertCarosel();
+
+
 let slideIndex = 1;
 showDivs(slideIndex);
 
