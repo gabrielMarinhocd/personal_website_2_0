@@ -45,8 +45,39 @@ const insertCarosel = () => {
 
 };
 
+const insertCaroselTrabalhos = () => {
+  const caroselHTML = document.querySelector('#carosel-work');
+
+  let gradeHTML = '';
+  menuTrabalhos.forEach(({ id, titulo, link, img, subTitulo }) => {
+    gradeHTML += ` <div id="${id}" class="slide-work">
+                      <div class="slide">
+                        <img class="img-fluid" src="${img}" alt="">
+                        <div class="icon-slide">
+                          <a href="${link}" target="_blank" rel="noopener noreferrer">
+                            <span class="icone-git-hub">
+                              <i class="fab fa-github"></i>
+                            </span>
+                          </a>
+                          <a href="${link}" target="_blank" rel="noopener noreferrer">
+                            <span class="icon-open">
+                              <i class="fas fa-external-link-alt"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <span id="title-${id}">${titulo} </span>
+                      <br />
+                      <span id="sub-title-${id}">${subTitulo} </span>
+                    </div>`;
+  });
+
+  caroselHTML.innerHTML = gradeHTML;
+};
+
 
 insertCarosel();
+insertCaroselTrabalhos();
 
 
 let slideIndex = 1;
