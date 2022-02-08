@@ -290,14 +290,6 @@ h2.title {
   cursor: pointer;
 }
 
-.project {
-  margin: 10px 10px 0 10px;
-  background-color: #19202b;
-  min-height: 700px;
-  width: 100%;
-  padding: 10px;
-  color: white;
-}
 
 .project img {
   padding: 30px;
@@ -361,14 +353,6 @@ h2.title {
 }
 
 
-.work {
-  margin: 10px 10px 0 10px;
-  background-color: #19202b;
-  min-height: 100%;
-  width: 100%;
-  padding: 10px;
-  color: white;
-}
 
 .work img {
   padding: 30px;
@@ -562,6 +546,9 @@ span#frase-name {
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+  #gellery-desktop {
+    DISPLAY: NONE;
+  }
 
   .home h1 {
     font-size: 25px;
@@ -709,23 +696,15 @@ span#frase-name {
   }
 
   .work {
+    margin: 10px 10px 0 10px;
     background-color: #19202b;
-    min-height: 700px;
     width: 100%;
-    padding: 10px;
+    padding: 20px 10px;
+    height: auto;
     color: white;
-    margin: 10px auto;
+    margin: 10px 0;
   }
-
-  .project {
-    margin: 10px auto;
-    background-color: #19202b;
-    min-height: 700px;
-    width: 100%;
-    padding: 10px;
-    color: white;
-  }
-
+  
   
   .project .col-1 {
     display: flex;
@@ -734,6 +713,15 @@ span#frase-name {
     flex-direction: column;
     text-align: center;
     padding: 0px;
+  }
+
+  .project {
+    margin: 10px 10px 0 10px;
+    background-color: #19202b;
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
+    color: white;
   }
 
   .work .col-1 {
@@ -766,9 +754,9 @@ span#frase-name {
   .gallery {
     margin: 0 10px 0 10px;
     background-color: #19202b;
-    min-height: 100%;
     width: 100%;
     margin: auto;
+    height: auto;
   }
 
   .desktop .col-4 {
@@ -786,10 +774,28 @@ span#frase-name {
     letter-spacing: 1.3px;
    }
 
+  .pointer:hover {
+    border: #ffffff42 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  span.pointer:hover {
+    padding: 10px;
+  }
 
 }
 
 @media only screen and (min-width: 800px) {
+
+  .project {
+    margin: 10px 10px 0 10px;
+    background-color: #19202b;
+    min-height: 700px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+  }
 
   .mobile {
     display: none;
@@ -819,6 +825,25 @@ span#frase-name {
     background: linear-gradient( 90deg, #19202b 50%, #5077fb 50%);
   }
 
+  .pointer:hover {
+    border: #ffffff42 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  span.pointer:hover {
+    padding: 15px;
+  }
+
+  .work {
+    margin: 10px 10px 0 10px;
+    background-color: #19202b;
+    min-height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: white;
+  }  
+
 }
 
 .modal-menu {
@@ -832,12 +857,3 @@ span#frase-name {
   background-color: blue !important;
 }
 
-.pointer:hover {
-  border: #ffffff42 1px solid;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-span.pointer:hover {
-  padding: 15px;
-}
