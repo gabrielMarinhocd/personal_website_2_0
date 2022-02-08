@@ -837,3 +837,7 @@ span#frase-name {
   padding: 10px;
   border-radius: 50%;
 }
+
+span.pointer:hover {
+  padding: 15px;
+}
