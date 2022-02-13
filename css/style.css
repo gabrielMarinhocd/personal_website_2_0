@@ -696,10 +696,10 @@ span#frase-name {
   }
 
   .work {
-    margin: 10px 10px 0 10px;
+    margin: 10px 0px 0 0px;
     background-color: #19202b;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 10px 55px 10px;
     height: auto;
     color: white;
     margin: 10px 0;
@@ -716,10 +716,10 @@ span#frase-name {
   }
 
   .project {
-    margin: 10px 10px 0 10px;
+    margin: 10px 0px 0px 0px;
     background-color: #19202b;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 10px 55px 10px;
     height: auto;
     color: white;
   }
