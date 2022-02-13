@@ -10,7 +10,10 @@ const star03 = document.getElementById("star-03");
 const star04 = document.getElementById("star-04");
 const star05 = document.getElementById("star-05");
 
+
 const Avaliar = (data) => {
+    const spanAvaliacao = document.querySelector("#avaliacao")
+    let avaliacao = " ";
     if(data == 1){
         star01.classList.add("fas");
         star01.classList.remove("far");
@@ -23,6 +26,7 @@ const Avaliar = (data) => {
         star04.classList.add("far");
         star05.classList.remove("fas");
         star05.classList.add("far");
+        avaliacao = 'Tem muito a melhorar';
     }else if (data == 2){
         star01.classList.add("fas");
         star01.classList.remove("far");
@@ -35,6 +39,7 @@ const Avaliar = (data) => {
         star04.classList.add("far");
         star05.classList.remove("fas");
         star05.classList.add("far");
+        avaliacao = 'Pode melhorar';
     }else if (data == 3){
         star01.classList.add("fas");
         star01.classList.remove("far");
@@ -47,6 +52,7 @@ const Avaliar = (data) => {
         star04.classList.add("far");
         star05.classList.remove("fas");
         star05.classList.add("far");
+        avaliacao = 'Bom';
     }else if (data == 4) {
         star01.classList.add("fas");
         star01.classList.remove("far");
@@ -59,6 +65,7 @@ const Avaliar = (data) => {
 
         star05.classList.remove("fas");
         star05.classList.add("far");
+        avaliacao = 'Muito Bom';
     } else if (data == 5){
         star01.classList.add("fas");
         star01.classList.remove("far");
@@ -70,8 +77,12 @@ const Avaliar = (data) => {
         star04.classList.remove("far");
         star05.classList.add("fas");
         star05.classList.remove("far");
+        avaliacao = 'Exelente';
     }
+
+    spanAvaliacao.innerHTML = avaliacao;
 }
 
 
 Avaliar();
+
