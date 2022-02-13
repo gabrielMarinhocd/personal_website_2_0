@@ -3,7 +3,7 @@
 // document.getElementById("MyElement").classList.remove('MyClass');
 
 // if ( document.getElementById("MyElement").classList.contains('MyClass') );
-
+let stars = 0;
 const star01 = document.getElementById("star-01");
 const star02 = document.getElementById("star-02");
 const star03 = document.getElementById("star-03");
@@ -79,7 +79,7 @@ const Avaliar = (data) => {
         star05.classList.remove("far");
         avaliacao = 'Exelente';
     }
-
+    stars = data;
     spanAvaliacao.innerHTML = avaliacao;
 }
 

@@ -857,3 +857,6 @@ span#frase-name {
   background-color: blue !important;
 }
 
+img.like-img {
+  max-width: 80%;
+}

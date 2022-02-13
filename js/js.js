@@ -116,6 +116,50 @@ function showDivsWork(n) {
   x[slideWork-1].style.display = "block";
 }
 
+const divFeedback = document.querySelector('#feedback');
+const feedback = async (event) => {
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+  const menssagem = document.querySelector('#message').value;
+  console.log(stars);
+
+  if (name !== '' && email !== '' && menssagem !== '' && stars !== 0) {
+    const preeloader = ` <h3 class="title-sobre">Deixe seu feedback</h3>
+    <br>
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>`;
+
+    divFeedback.innerHTML = preeloader;
+
+    const data = new Date();
+
+    const sendFeedback = await fetch(
+      `https://gabrielmarinho.herokuapp.com?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}&data=${data}`,
+      {
+        method: 'POST',
+      }
+    );
+    await agradecimento(sendFeedback.ok);
+  } else {
+    alert('Preencha todos os campos');
+  }
+};
+
+const agradecimento = (res) => {
+  if (res) {
+    const feedbackCadastrado = `<div class=" animate__animated animate__jackInTheBox  ">
+              <h3 class="title-sobre"> Obrigado pelo feedback</h3>
+              <img class="like-img" src="./images/like.png" alt="like" />
+            </div>`;
+    divFeedback.innerHTML = feedbackCadastrado;
+  }
+};
+
+const inputValue = document.querySelector('#form');
+inputValue.addEventListener('submit', (event) => event.preventDefault());
 
 
 

@@ -373,17 +373,17 @@
                   </div>
   
   
-                  <div class="container col-6 blue">
+                  <div id="feedback" class="container col-6 blue">
                     <h3>Deixe seu feedback</h3>
-                    <form action="">
+                    <form onsubmit="feedback()" id="form">
                       <div>
-                        <input type="text" name="name" id="name" placeholder="Nome">
+                        <input type="text" name="name" id="name" placeholder="Nome" required>
                       </div>
                       <div>
-                        <input type="text" name="email" id="email" placeholder="email">
+                        <input type="email" name="email" id="email" placeholder="email" required>
                       </div>
                       <div>
-                        <textarea  id="message" rows="3" placeholder="Deixe sua menssagem"></textarea>
+                        <textarea  id="message" rows="3" placeholder="Deixe sua menssagem" required></textarea>
                       </div>
 
                       <div class="center stars">
