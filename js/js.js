@@ -124,13 +124,15 @@ const feedback = async (event) => {
   console.log(stars);
 
   if (name !== '' && email !== '' && menssagem !== '' && stars !== 0) {
-    const preeloader = ` <h3 class="title-sobre">Deixe seu feedback</h3>
-    <br>
-    <div class="d-flex justify-content-center">
-      <div class="spinner-border text-info" role="status">
-        <span class="sr-only">Loading...</span>
+    const preeloader = `<div class="center"> 
+    <h3 class="title-sobre">Deixe seu feedback</h3>
+      <br>
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border text-info" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
       </div>
-    </div>`;
+    <div>`;
 
     divFeedback.innerHTML = preeloader;
 
