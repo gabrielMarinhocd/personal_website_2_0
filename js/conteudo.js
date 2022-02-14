@@ -2,19 +2,19 @@ const menu = [
   {
     id: 'app-mata-mosquito',
     titulo: 'APP Mata Mosquito',
-    link: './Projetos/App_Mata_Mosquito/inicio_jogo.html',
+    link: './projects/App_Mata_Mosquito/inicio_jogo.html',
     img: './images/projetos-img/App-mata-mosquito.png',
   },
   {
     id: 'pesquisa-de-usuarios',
     titulo: 'Pesquisa de Usuários ',
-    link: './Projetos/Pesquisa-de-usuarios/index.html',
+    link: './projects/Pesquisa-de-usuarios/index.html',
     img: './images/projetos-img/Pesquisa_de_usuarios.png',
   },
   {
     id: 'pokedex',
     titulo: 'Pokedex',
-    link: './Projetos/pokedex-master/index.html',
+    link: './projects/pokedex-master/index.html',
     img: './images/projetos-img/Pokedez.png',
   },
   {
@@ -26,13 +26,13 @@ const menu = [
   {
     id: 'radio-podcast',
     titulo: 'Rádio Podcast',
-    link: './Projetos/radio-podcast-pronto/index.html',
+    link: './projects/radio-podcast-pronto/index.html',
     img: './images/projetos-img/Radio_Podcast.png',
   },
   {
     id: 'manipulador-de-cores',
     titulo: 'Manipulador de Cores',
-    link: './Projetos/Manipulando_cores/index.html',
+    link: './projects/Manipulando_cores/index.html',
     img: './images/projetos-img/Manipulador_de_cores.png',
   },
   {
@@ -56,7 +56,7 @@ const menu = [
   {
     id: 'tabela-brasileirão',
     titulo: 'Tabela do Brasileirão',
-    link: './Projetos/Brasileirão/index.html',
+    link: './projects/Brasileirão/index.html',
     img: './images/projetos-img/Tabela-Brasileirao.png',
   },
 ];
