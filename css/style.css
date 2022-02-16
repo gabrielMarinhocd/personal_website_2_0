@@ -327,22 +327,6 @@ h2.title {
   right: 45px;
 }
 
-.icon-slide span {
-  color: #5077fb;
-  background-color: white;
-  padding: 5px;
-  margin: 0px;
-  border: none;
-  border: 1px solid #5078fb47;
-}
-
-.icon-slide span:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #5077fb;
-  padding: 5px;
-  margin: 0px;
-}
 
 .icon-slide a {
   text-decoration: none;
@@ -860,3 +844,38 @@ span#frase-name {
 img.like-img {
   max-width: 80%;
 }
+
+a.active-icon {
+  color: #5077fb;
+  background-color: white;
+  padding: 5px;
+  margin: 0px;
+  border: none;
+  border: 1px solid #5078fb47;
+}
+
+
+a.diseable-pointer {
+  pointer-events: none;
+  cursor: default;
+  background-color: #e1e1e1;
+  color: #bbbbbb;
+  padding: 6px;
+}
+/* 
+.icon-slide span {
+  color: #5077fb;
+  background-color: white;
+  padding: 5px;
+  margin: 0px;
+  border: none;
+  border: 1px solid #5078fb47;
+}
+
+.icon-slide span:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5077fb;
+  padding: 5px;
+  margin: 0px;
+} */

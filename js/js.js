@@ -19,21 +19,42 @@ for (let i = 1; i <= 5; i++){
 const insertCarosel = () => {
   const caroselHTML = document.querySelector('#carrosel');
   let gradeHTML = '';
-  menu.forEach(({ id, titulo, link, img }) => {
+  menu.forEach(({ id, titulo, link, img, github }) => {
+    let aContent = "";
+    let gContet = "";
+    if(github == "diseable"){
+      gContent= `<a class="diseable-pointer" >    <span class="icone-git-hub ">
+      <i class="fab fa-github"></i>
+    </span> </a>`;
+    }else{
+      gContent = `<a class="active-icon" href="${github}" target="_blank" rel="noopener noreferrer >
+                    <span class="icone-git-hub ">
+                      <i class="fab fa-github"></i>
+                    </span>
+                  </a>`;
+    }
+
+    if(link == "diseable"){
+      aContent= ` <a class="diseable-pointer"> <span class="icon-open">
+      <i class="fas fa-external-link-alt"></i>
+    </span> </a>`;
+    }else{
+          aContent = `<a class="active-icon" href="${link}" target="_blank" rel="noopener noreferrer >
+          <span class="icon-open">
+            <i class="fas fa-external-link-alt"></i>
+          </span>
+        </a>`;
+    }
+
+
+
+
       gradeHTML += ` <div id="${id}" class="mySlides">
                         <div class="slide">
                           <img id="img-${id}" class="img-fluid" src="${img}" alt="${titulo}">
                           <div class="icon-slide">
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                              <span class="icone-git-hub">
-                                <i class="fab fa-github"></i>
-                              </span>
-                            </a>
-                            <a href="${link}" target="_blank" rel="noopener noreferrer">
-                              <span class="icon-open">
-                                <i class="fas fa-external-link-alt"></i>
-                              </span>
-                            </a>
+                          ${gContent}
+                          ${aContent}
                           </div>
                         </div>
                         <span id="title-${id}" >${titulo} </span>
@@ -49,21 +70,40 @@ const insertCaroselTrabalhos = () => {
   const caroselHTML = document.querySelector('#carosel-work');
 
   let gradeHTML = '';
-  menuTrabalhos.forEach(({ id, titulo, link, img, subTitulo }) => {
+  menuTrabalhos.forEach(({ id, titulo, link, img, subTitulo, github }) => {
+    let aContent = "";
+    let gContet = "";
+    if(github == "diseable"){
+      gContent= `<a class="diseable-pointer" >    <span class="icone-git-hub ">
+      <i class="fab fa-github"></i>
+    </span> </a>`;
+    }else{
+      gContent = `<a class="active-icon" href="${github}" target="_blank" rel="noopener noreferrer >
+                    <span class="icone-git-hub ">
+                      <i class="fab fa-github"></i>
+                    </span>
+                  </a>`;
+    }
+
+    if(link == "diseable"){
+      aContent= ` <a class="diseable-pointer"> <span class="icon-open">
+      <i class="fas fa-external-link-alt"></i>
+    </span> </a>`;
+    }else{
+          aContent = `<a class="active-icon" href="${link}" target="_blank" rel="noopener noreferrer >
+          <span class="icon-open">
+            <i class="fas fa-external-link-alt"></i>
+          </span>
+        </a>`;
+    }
+    
     gradeHTML += ` <div id="${id}" class="slide-work">
                       <div class="slide">
                         <img class="img-fluid" src="${img}" alt="">
                         <div class="icon-slide">
-                          <a href="${link}" target="_blank" rel="noopener noreferrer">
-                            <span class="icone-git-hub">
-                              <i class="fab fa-github"></i>
-                            </span>
-                          </a>
-                          <a href="${link}" target="_blank" rel="noopener noreferrer">
-                            <span class="icon-open">
-                              <i class="fas fa-external-link-alt"></i>
-                            </span>
-                          </a>
+                          ${gContent}
+                           ${aContent}
+                           
                         </div>
                       </div>
                       <span id="title-${id}">${titulo} </span>

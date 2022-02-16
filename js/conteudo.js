@@ -1,63 +1,80 @@
 const menu = [
   {
+    id: 'site-pessoal',
+    titulo: 'Site pessoal 1.0',
+    link: './projects/Personal_website',
+    img: './images/projetos-img/personal-website.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Personal_website',
+  },
+  {
     id: 'app-mata-mosquito',
     titulo: 'APP Mata Mosquito',
-    link: './projects/App_Mata_Mosquito/inicio_jogo.html',
-    img: './images/projetos-img/App-mata-mosquito.png',
+    link: './projects/App_Mata_Mosquito/App_Mata_Mosquito/inicio_jogo.html',
+    img: './images/projetos-img/app-mata-mosquito.jpg',
+    github: 'https://github.com/gabrielMarinhocd/App_Mata_Mosquito',
   },
   {
     id: 'pesquisa-de-usuarios',
     titulo: 'Pesquisa de Usuários ',
-    link: './projects/Pesquisa-de-usuarios/index.html',
-    img: './images/projetos-img/Pesquisa_de_usuarios.png',
+    link: '../projects/Pesquisa-de-usuarios/index.html',
+    img: './images/projetos-img/pesquisa_de_usuarios.jpg',
+    github: 'https://github.com/gabrielMarinhocd/App_Pesquisa-de-usuarios',
   },
   {
     id: 'pokedex',
     titulo: 'Pokedex',
-    link: './projects/pokedex-master/index.html',
-    img: './images/projetos-img/Pokedez.png',
+    link: '../projects/pokedex-master/index.html',
+    img: '../images/projetos-img/pokedex.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Personal_website/tree/master/Projetos/pokedex-master',
   },
   {
     id: 'controle-financeiro-pessoal',
     titulo: 'Controle Financeiro Pessoal',
     link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
-    img: './images/projetos-img/Controlhe-finaceiro.png',
+    img: './images/projetos-img/controlhe-finaceiro.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Controlhe-Financeiro-Pessoal',
   },
   {
     id: 'radio-podcast',
     titulo: 'Rádio Podcast',
-    link: './projects/radio-podcast-pronto/index.html',
-    img: './images/projetos-img/Radio_Podcast.png',
+    link: '../projects/radio-podcast-pronto/index.html',
+    img: './images/projetos-img/radio_podcast.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Personal_website/tree/master/Projetos/radio-podcast-pronto',
   },
   {
     id: 'manipulador-de-cores',
     titulo: 'Manipulador de Cores',
-    link: './projects/Manipulando_cores/index.html',
-    img: './images/projetos-img/Manipulador_de_cores.png',
+    link: '../projects/Manipulando_cores/index.html',
+    img: './images/projetos-img/manipulador-cores.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Personal_website/tree/master/Projetos/Manipulando_cores',
   },
   {
     id: 'react-countries',
     titulo: 'React Countries',
     link: 'https://gabriel-react-countries.herokuapp.com/',
-    img: './images/projetos-img/React-Countries.png',
+    img: './images/projetos-img/react-countries.jpg',
+    github: 'https://github.com/gabrielMarinhocd/React-countries',
   },
   {
     id: 'react-salary',
     titulo: 'React Salary',
     link: 'https://grabriel-salary.herokuapp.com/',
-    img: './images/projetos-img/React-salary.png',
+    img: './images/projetos-img/react-salary.jpg',
+    github: 'https://github.com/gabrielMarinhocd/React-salary',
   },
   {
     id: 'react-juros-compostosy',
     titulo: 'React - Juros Compostos',
     link: 'https://react-juros-compostos.herokuapp.com/',
-    img: './images/projetos-img/Rect_juros_compostos.png',
+    img: './images/projetos-img/rect_juros_compostos.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Rect-Juros-Compostos',
   },
   {
     id: 'tabela-brasileirão',
     titulo: 'Tabela do Brasileirão',
-    link: './projects/Brasileirão/index.html',
-    img: './images/projetos-img/Tabela-Brasileirao.png',
+    link: '../projects/Brasileirão/index.html',
+    img: './images/projetos-img/tabela-brasileiro.jpg',
+    github: 'https://github.com/gabrielMarinhocd/Personal_website/tree/master/Projetos/Brasileir%C3%A3o',
   },
 ];
 
@@ -65,9 +82,10 @@ const menuTrabalhos = [
   {
     id: 'awp-brasil',
     titulo: 'Sistema AWP Brasil',
-    link: 'https://github.com/gabrielMarinhocd/ProjetoAWP',
+    link: 'diseable',
     subTitulo: 'Java',
     img: './images/projetos-img/Assistencia_AWP.png',
+    github: 'https://github.com/gabrielMarinhocd/ProjetoAWP'
   },
   {
     id: 'imperiojoias',
@@ -75,6 +93,7 @@ const menuTrabalhos = [
     link: 'http://projetos.teigebrasil.com.br/imperio',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/imperio-joias.png',
+    github: 'diseable'
   },
   {
     id: 'martelinhho',
@@ -82,6 +101,7 @@ const menuTrabalhos = [
     link: 'http://projetos.teigebrasil.com.br/martelinho',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/martelinho-de-ouro.png',
+    github: 'diseable'
   },
   {
     id: 'studiojo',
@@ -89,6 +109,7 @@ const menuTrabalhos = [
     link: 'http://projetos.teigebrasil.com.br/studiojo/',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/studiojo.png',
+    github: 'diseable'
   },
   //   {
   //     id: 'timesstyle',
@@ -104,6 +125,7 @@ const menuTrabalhos = [
     subTitulo: 'Wordpress',
     img:
       'https://teigetour.com.br/wp-content/uploads/2021/10/logo-teigetour4-removebg-preview-300x212.png',
+    github: 'diseable'
   },
 ];
 
