@@ -867,3 +867,8 @@ a.active-icon:hover {
   color: white;
   background: #5077fb;
 }
+
+.higthlights img:hover {
+  border-color: #ffe000;
+}
+
