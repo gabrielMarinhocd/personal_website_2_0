@@ -862,20 +862,8 @@ a.diseable-pointer {
   color: #bbbbbb;
   padding: 6px;
 }
-/* 
-.icon-slide span {
-  color: #5077fb;
-  background-color: white;
-  padding: 5px;
-  margin: 0px;
-  border: none;
-  border: 1px solid #5078fb47;
-}
 
-.icon-slide span:hover {
-  cursor: pointer;
+a.active-icon:hover {
   color: white;
-  background-color: #5077fb;
-  padding: 5px;
-  margin: 0px;
-} */
+  background: #5077fb;
+}
