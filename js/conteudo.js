@@ -84,7 +84,7 @@ const menuTrabalhos = [
     titulo: 'Sistema AWP Brasil',
     link: 'diseable',
     subTitulo: 'Java',
-    img: './images/projetos-img/Assistencia_AWP.png',
+    img: './images/projetos-img/assistencia_awp.png',
     github: 'https://github.com/gabrielMarinhocd/ProjetoAWP'
   },
   {
