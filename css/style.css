@@ -190,6 +190,7 @@ input#input-search::placeholder {
 
 .conteudo{
   overflow-y: scroll;
+  overflow-x: hidden;
   max-height: 700px;
 }
 
