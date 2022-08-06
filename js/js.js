@@ -207,10 +207,18 @@ const bodyUsa = document.querySelector('#usa')
 
 document.querySelector('#usa').addEventListener('click', () => {
   bodyPtbr.innerHTML = englishBody;
+  insertCarosel();
+  insertCaroselTrabalhos();
+  showDivs(slideIndex);
+  showDivsWork(slideWork);
 })
 
 document.querySelector('#pt-br').addEventListener('click', () => {
   bodyUsa.innerHTML = ptBr;
+  insertCarosel();
+  insertCaroselTrabalhos();
+  showDivs(slideIndex);
+  showDivsWork(slideWork);
 })
 
 
