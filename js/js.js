@@ -204,30 +204,49 @@ const agradecimento = (res) => {
 
 const inputValue = document.querySelector('#form');
 inputValue.addEventListener('submit', (event) => event.preventDefault());
-const bodyPtbr = document.querySelector('#body-br')
-const bodyUsa = document.querySelector('#body-usa')
 
-document.querySelector('#usa').addEventListener('click', () => {
-  const bodyPtbr = document.querySelector('#body-br')
-  bodyPtbr.innerHTML = englishBody;
+const body = document.querySelector('#body')
+
+function alterLenguage(i) {
+  if (i == 1 ) {
+    body.innerHTML = englishBody;
   clickEducation()
   insertCarosel();
   insertCaroselTrabalhos();
   showDivs(slideIndex);
   showDivsWork(slideWork);
   console.log('usa');
-})
+  }else{
+    body.innerHTML = ptBr;
+    clickEducation()
+    insertCarosel();
+    insertCaroselTrabalhos();
+    showDivs(slideIndex);
+    showDivsWork(slideWork);
+    console.log('br');
+  }
+  
+}
 
-document.querySelector('#br').addEventListener('click', () => {
-  const bodyUsa = document.querySelector('#body-usa')
-  console.log('br');
-  bodyUsa.innerHTML = ptBr;
-  clickEducation()
-  insertCarosel();
-  insertCaroselTrabalhos();
-  showDivs(slideIndex);
-  showDivsWork(slideWork);
-})
+// document.querySelector('#usa').addEventListener('click', () => {
+//   body.innerHTML = englishBody;
+//   clickEducation()
+//   insertCarosel();
+//   insertCaroselTrabalhos();
+//   showDivs(slideIndex);
+//   showDivsWork(slideWork);
+//   console.log('usa');
+// })
+
+// document.querySelector('#br').addEventListener('click', () => {
+//   body.innerHTML = ptBr;
+//   clickEducation()
+//   insertCarosel();
+//   insertCaroselTrabalhos();
+//   showDivs(slideIndex);
+//   showDivsWork(slideWork);
+//   console.log('br');
+// })
 
 
 
