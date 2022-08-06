@@ -210,13 +210,9 @@ const body = document.querySelector('#body')
 function alterLenguage(i) {
   if (i == 1 ) {
     body.innerHTML = englishBody;
-    console.log('usa');
   }else{
     body.innerHTML = ptBr;
-    
-    console.log('br');
   }
-
   clickEducation()
   insertCarosel();
   insertCaroselTrabalhos();

@@ -13,7 +13,8 @@ const englishBody = `
 </div>
 
 <div class="container background-body">
-<div class="language">
+
+<div class="language none">
   <span class="brazil" >
     <img  class="img-fluid" id="br" src="./images/icones/brazil-flag.png" alt="portuguese"  onclick="alterLenguage(2)">
   </span>
@@ -378,13 +379,13 @@ const englishBody = `
                   Leave your feedback</h3>
                 <form onsubmit="feedback()" id="form">
                   <div>
-                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
                   </div>
                   <div>
                     <input type="email" name="email" id="email" placeholder="email" required>
                   </div>
                   <div>
-                    <textarea  id="message" rows="3" placeholder="Deixe sua menssagem" required></textarea>
+                    <textarea  id="message" rows="3" placeholder="Leave your message" required></textarea>
                   </div>
 
                   <div class="center stars">            
@@ -572,6 +573,16 @@ const englishBody = `
       </div>
 
     </div>
+
+    <div class="language ">
+      <span class="brazil" >
+        <img  class="img-fluid" id="br" src="./images/icones/brazil-flag.png" alt="portuguese"  onclick="alterLenguage(2)">
+      </span>
+      <span class="usa" >
+        <img class="img-fluid" id="usa" src="./images/icones/united-states.png" alt="english" onclick="alterLenguage(1)">
+      </span>
+    </div>
+
   </div>
 </div>
 `

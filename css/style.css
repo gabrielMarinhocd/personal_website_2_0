@@ -51,8 +51,6 @@ body {
   color: #5077fb;
 }
 
-
-
 .menu {
   float: left;
   background-color: #5077fb;
@@ -82,7 +80,6 @@ body {
 .link-menu img {
   max-width: 12px;
 }
-
 
 .link-menu{
   padding-top: 10px;
@@ -149,7 +146,6 @@ input#input-search::placeholder {
 .higthlights .col-2 {
   margin: 0 5px 0 5px;
 }
-
 
 .title-menu h3 {
   font-size: 12px;
@@ -427,8 +423,6 @@ li.social {
   margin-right: 2px;
 }
 
-
-
 .blue{
   padding: 60px 30px;
 }
@@ -531,6 +525,28 @@ span#frase-name {
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+  .none{
+    display: none;
+  }
+
+  .language {
+    position: absolute;
+    top: auto;
+    bottom: 150px;
+    /* right: 0px; */
+    left: 30%;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: AUTO;
+  background-color: #000;
+}
+
   #gellery-desktop {
     DISPLAY: NONE;
   }
@@ -773,6 +789,13 @@ span#frase-name {
 
 @media only screen and (min-width: 800px) {
 
+  .language {
+    border-radius: 3px;
+    position: absolute;
+    left: auto;
+    right: 100px;
+  }
+
   .project {
     margin: 10px 10px 0 10px;
     background-color: #19202b;
@@ -873,21 +896,11 @@ a.active-icon:hover {
   border-color: #ffe000;
 }
 
-.language {
-  /* background-color: #19202b;
-  padding: 10px; */
-  border-radius: 3px;
-  position: absolute;
-  left: auto;
-  right: 100px;
-}
-
 .language img {
   background: #19202b;
   padding: 5px;
   width: 40px;
   margin: 0;
-  width: 40px;
   border-radius: 3px;
 }
 
@@ -899,4 +912,6 @@ a.active-icon:hover {
   width: 40px;
   border-radius: 3px;
 }
+
+
 
