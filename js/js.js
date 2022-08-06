@@ -1,20 +1,23 @@
 
-for (let i = 1; i <= 5; i++){
-    let education = document.querySelector(`#ed-0${i}`);
-    
-    education.addEventListener('click', () =>{
-        let iten = document.querySelector(`.iten-0${i}`);
-        let event = iten.style.display;
-        if (event == 'none'){
-            iten.style.display = "block";
-            education.style.transform = 'rotate(180deg)';
-        }else{
-            iten.style.display = "none";
-            education.style.transform = 'rotate(0deg)';
-        }
-        
-    })
-}
+const clickEducation = () => {
+  for (let i = 1; i <= 5; i++){
+      let education = document.querySelector(`#ed-0${i}`);
+      
+      education.addEventListener('click', () =>{
+          let iten = document.querySelector(`.iten-0${i}`);
+          let event = iten.style.display;
+          if (event == 'none'){
+              iten.style.display = "block";
+              education.style.transform = 'rotate(180deg)';
+          }else{
+              iten.style.display = "none";
+              education.style.transform = 'rotate(0deg)';
+          }
+          
+      })
+  }
+} 
+
 
 const insertCarosel = () => {
   const caroselHTML = document.querySelector('#carrosel');
@@ -115,10 +118,9 @@ const insertCaroselTrabalhos = () => {
   caroselHTML.innerHTML = gradeHTML;
 };
 
-
+clickEducation()
 insertCarosel();
 insertCaroselTrabalhos();
-
 
 let slideIndex = 1;
 showDivs(slideIndex);
@@ -202,19 +204,25 @@ const agradecimento = (res) => {
 
 const inputValue = document.querySelector('#form');
 inputValue.addEventListener('submit', (event) => event.preventDefault());
-const bodyPtbr = document.querySelector('#pt-br')
-const bodyUsa = document.querySelector('#usa')
+const bodyPtbr = document.querySelector('#body-br')
+const bodyUsa = document.querySelector('#body-usa')
 
 document.querySelector('#usa').addEventListener('click', () => {
+  const bodyPtbr = document.querySelector('#body-br')
   bodyPtbr.innerHTML = englishBody;
+  clickEducation()
   insertCarosel();
   insertCaroselTrabalhos();
   showDivs(slideIndex);
   showDivsWork(slideWork);
+  console.log('usa');
 })
 
-document.querySelector('#pt-br').addEventListener('click', () => {
+document.querySelector('#br').addEventListener('click', () => {
+  const bodyUsa = document.querySelector('#body-usa')
+  console.log('br');
   bodyUsa.innerHTML = ptBr;
+  clickEducation()
   insertCarosel();
   insertCaroselTrabalhos();
   showDivs(slideIndex);
