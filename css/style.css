@@ -530,12 +530,12 @@ span#frase-name {
   }
 
   .language {
-    position: absolute;
+    position: flex;
+    text-align: center;
     top: auto;
     bottom: 150px;
-    /* right: 0px; */
     left: 30%;
-}
+  }
 
 .modal-backdrop {
   position: fixed;
