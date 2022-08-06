@@ -210,21 +210,19 @@ const body = document.querySelector('#body')
 function alterLenguage(i) {
   if (i == 1 ) {
     body.innerHTML = englishBody;
+    console.log('usa');
+  }else{
+    body.innerHTML = ptBr;
+    
+    console.log('br');
+  }
+
   clickEducation()
   insertCarosel();
   insertCaroselTrabalhos();
   showDivs(slideIndex);
   showDivsWork(slideWork);
-  console.log('usa');
-  }else{
-    body.innerHTML = ptBr;
-    clickEducation()
-    insertCarosel();
-    insertCaroselTrabalhos();
-    showDivs(slideIndex);
-    showDivsWork(slideWork);
-    console.log('br');
-  }
+  Avaliar();
   
 }
 
