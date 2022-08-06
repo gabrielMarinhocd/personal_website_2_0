@@ -1,70 +1,39 @@
-<!doctype html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gabriel Marinho - Analista de sistemas | Desenvolvedor WEB</title>
-  <link rel="icon" href="./images/icones/icon.png">
-  <meta name="keywords" content="Gabriel, Marinho, Técnico em Informática, Analista, sistemas, Desenvolvedor - JS Wordpress">
-  <meta name="description" content="Gabriel Marinho graduado em análise e desenvolvimento de sistemas. Estou cursando MBA Desenvolvedor Mobile e sou desenvolvedor WEB há 2 anos. Tenho experiência com HTML, CSS, Javascript, Nodejs, Java, Wordpress, Photoshop, SQL. Minha trajetória profissional inclui empresas como MIX7, AWP Brasil, Ewines Brasil, Teige Brasil. Atualmente estou em casa me atualizando e busco uma oportunidade como desenvolvedor full stack">
-  <meta name="author" content="Gabriel Marinho">
-  <meta http-equiv="refresh" content="300">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fon ts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat&family=Poppins&family=Caveat&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRS3SZRTZQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-DRS3SZRTZQ');
-  </script>
-  
-</head>
-
-<body >
-  <div id="pt-br">
+const ptBr = `
+    <div id="pt-br">
     <div class="mobile">
-      <nav class="navbar navbar-light  shadow">
+    <nav class="navbar navbar-light  shadow">
         <div class="container">
-          <span class="navbar-brand mb-0 h1"><img class=" img-fluid logo" src="./images/Logo/logo-gm-ondas.png"
-              alt=""></span>
+        <span class="navbar-brand mb-0 h1"><img class=" img-fluid logo" src="./images/Logo/logo-gm-ondas.png"
+            alt=""></span>
 
-          <button class="open-menu" type="button" data-bs-toggle="modal" data-bs-target="#modal-mobile">
+        <button class="open-menu" type="button" data-bs-toggle="modal" data-bs-target="#modal-mobile">
             <i class="fas fa-bars"></i>
-          </button>
+        </button>
         </div>
-      </nav>
+    </nav>
     </div>
 
     <div class="container background-body">
-      <div class="language">
+    <div class="language">
         <span class="brazil" >
-          <img  class="img-fluid" id="br" src="./images/icones/brazil-flag.png" alt="portuguese">
+        <img  class="img-fluid" id="br" src="./images/icones/brazil-flag.png" alt="portuguese">
         </span>
         <span class="usa" >
-          <img class="img-fluid" id="usa" src="./images/icones/united-states.png" alt="english">
+        <img class="img-fluid" id="usa" src="./images/icones/united-states.png" alt="english">
         </span>
-      </div>
-      <div class="container ">
+    </div>
+    <div class="container ">
 
         <div class="container overflow-hidden body  desktop">
-          <div class="row ">
+        <div class="row ">
             <div class="col-4 ">
-              <div class="menu desktop-menu">
+            <div class="menu desktop-menu">
                 <div class="logo center">
-                  <img src="./images/Logo/logo-gm-ondas.png" alt="logo ondas - Gabriel Marinho" width="100px">
-                  <div class="center">GABRIEL MARINHO DOS SANTOS</div>
+                <img src="./images/Logo/logo-gm-ondas.png" alt="logo ondas - Gabriel Marinho" width="100px">
+                <div class="center">GABRIEL MARINHO DOS SANTOS</div>
                 </div>
                 <div class="link-menu">
-                  <ul>
+                <ul>
                     <li><a href="#home"  rel="noopener noreferrer">Home</a></li>
                     <li><a href="#education"  rel="noopener noreferrer">Formação Acâdemica</a></li>
                     <li><a href="#project"  rel="noopener noreferrer">Portifólio</a></li> 
@@ -72,372 +41,372 @@
                     <li> <a href="#gallery" rel="noopener noreferrer">Galeria</a> </li>
                     <li><a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank" rel="noopener noreferrer">Crurriculo <i id="icon-download" class="fas fa-download"></i></a></li> 
                     <li><a href="#contact"  rel="noopener noreferrer">Contato</a></li> 
-                  </ul>
+                </ul>
                 </div>
                 
                 <div class=" container search">
-                  <div class="input-group mb-3">
+                <div class="input-group mb-3">
                     <input id="input-search" type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
                     <div class="input-group-append  container">
-                      <button class="submit-lente" type="submit">
+                    <button class="submit-lente" type="submit">
                         <i class="fa fa-search"></i>
-                      </button>
+                    </button>
                     </div>
-                  </div>
+                </div>
                 </div>
 
                 <div class="container higthlights center ">
-                  <div class="title-menu">
+                <div class="title-menu">
                     <h3>
-                      Destaques recentes
+                    Destaques recentes
                     </h3>
                     <br/>
-                  </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-2">
-                      <a href="#work"  rel="noopener noreferrer">
+                    <a href="#work"  rel="noopener noreferrer">
                         <img src="./images/projetos-img/studiojo.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/teige.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/martelinho-de-ouro.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/assistencia_awp.png" alt="">
-                      </a>
+                    </a>
                     </div>
-                  </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">
+                    <a href="#project" rel="noopener noreferrer">
                         <img src="./images/projetos-img/controlhe-finaceiro.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">
+                    <a href="#project" rel="noopener noreferrer">
 
                         <img src="./images/projetos-img/pokedex.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">     
-                      </a>
-                      <img src="./images/projetos-img/tabela-brasileiro.jpg" alt="">
+                    <a href="#project" rel="noopener noreferrer">     
+                    </a>
+                    <img src="./images/projetos-img/tabela-brasileiro.jpg" alt="">
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">                     
+                    <a href="#project" rel="noopener noreferrer">                     
                         <img src="./images/projetos-img/app-mata-mosquito.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
-                  </div>
+                </div>
                 </div>
 
                 <div class="container social-midia">
-                  <div class="title-menu">
+                <div class="title-menu">
                     <h3>
-                      Redes Sociais
+                    Redes Sociais
                     </h3>
                     <br/>
-                  </div>
-                  <div class="row ">
+                </div>
+                <div class="row ">
                     <div class="col-1">
-                      <a href="https://api.whatsapp.com/send?phone=5561993672608&text=Ol%C3%A1%2C%20visitei%20o%20seu%20site%20podemos%20conversar" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=5561993672608&text=Ol%C3%A1%2C%20visitei%20o%20seu%20site%20podemos%20conversar" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="https://www.instagram.com/gabrielmsantos_dev/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/gabrielmsantos_dev/" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-instagram"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="https://github.com/gabrielMarinhocd/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/gabrielMarinhocd/" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="http://www.linkedin.com/in/gabriel-marinho-bsb" target="_blank" rel="noopener noreferrer">
+                    <a href="http://www.linkedin.com/in/gabriel-marinho-bsb" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin-in"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="mailto:gabrielmarinhodossantoscd@gmail.com"  rel="noopener noreferrer">
+                    <a href="mailto:gabrielmarinhodossantoscd@gmail.com"  rel="noopener noreferrer">
                         <i class="far fa-envelope"></i>
-                      </a>                
+                    </a>                
                     </div>
-                  </div>
+                </div>
 
                 </div>
                 
 
-              </div>
+            </div>
 
             </div>
             <div class="col-8 center  conteudo ">
 
-              <div id="home" class="home">
+            <div id="home" class="home">
                 <div class="fundo-tecnologias">
-                  <img class="img-fluid" src="./images/fundo-tecnologias.jpg
-                  " alt="Fundo Tecnologias">
+                <img class="img-fluid" src="./images/fundo-tecnologias.jpg
+                " alt="Fundo Tecnologias">
                 </div>
                 <div class="foto-gabriel">
-                  <img  id="foto-gabriel" src="./images/foto-gabriel.png" alt="Foto Gabriel">
+                <img  id="foto-gabriel" src="./images/foto-gabriel.png" alt="Foto Gabriel">
                 </div>
                 <div class="content">
-                  <h1>Analista de Sistemas</h1>
-                  <h3>Desenvolvedor WEB</h3>
-                  <h3>Técnico em Informática </h3>
-                  <h3>Web Designer </h3>
+                <h1>Analista de Sistemas</h1>
+                <h3>Desenvolvedor WEB</h3>
+                <h3>Técnico em Informática </h3>
+                <h3>Web Designer </h3>
                 </div>
-              </div>
+            </div>
 
-              <div id="education" class=" container education">
+            <div id="education" class=" container education">
                 <h2 class="title">Formação Acâdemica</h2>
 
                 <div class="box">
-                  <div class="box-title">
+                <div class="box-title">
                     <h4>Cursando MBA - Desenvolvedor Mobile Multiplataformas IGTI <span id="ed-04" class="rigth ed"><i  class="fas fa-chevron-down"></i></span></h4>
-                  </div>
-                  <div class="box-content iten-04">
+                </div>
+                <div class="box-content iten-04">
                     <span class="sub-title">Cursando MBA - Desenvolvedor Mobile Multiplataformas IGTI</span>
                     <br/>
                     <a href="https://www.igti.com.br/" target="_blank" rel="noopener noreferrer">
-                      Visitar site
+                    Visitar site
                     </a>  
-                  </div>
+                </div>
                 </div>
 
                 <div class="box">
-                  <div class="box-title">
+                <div class="box-title">
                     <h4>Tecnologo em Análise e Desenvolvimento de Sistemas <span id="ed-03" class="rigth ed"><i  class="fas fa-chevron-down"></i></span></h4>
-                  </div>
-                  <div class="box-content iten-03">
+                </div>
+                <div class="box-content iten-03">
                     <span class="sub-title">UNIP - Brasilia</span>
                     <br/>
                     <a href="https://www.unip.br/" target="_blank" rel="noopener noreferrer">
-                      Visitar site
+                    Visitar site
                     </a>  
-                  </div>
+                </div>
                 </div>
 
                 <div class="box">
-                  <div class="box-title">
+                <div class="box-title">
                     <h4>Técnico em Informática <span id="ed-02" class="rigth ed"><i  class="fas fa-chevron-down"></i></span></h4>
-                  </div>
-                  <div class="box-content iten-02">
+                </div>
+                <div class="box-content iten-02">
                     <span class="sub-title">ETB - Escola Técnica de Brasilia</span>
                     <br/>
                     <a href="http://www.etb.com.br/" target="_blank" rel="noopener noreferrer">
-                      Visitar site
+                    Visitar site
                     </a>  
-                  </div>
+                </div>
                 </div>  
 
                 <div class="box">
-                  <div class="box-title">
+                <div class="box-title">
                     <h4>Segundo Grau <span id="ed-01" class="rigth ed"><i  class="fas fa-chevron-down"></i></span></h4>
-                  </div>
-                  <div class="box-content iten-01">
+                </div>
+                <div class="box-content iten-01">
                     <span class="sub-title">CED 06 - Cêilandia</span>
                     <br/>
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Visitar site
+                    Visitar site
                     </a>  
-                  </div>
+                </div>
                 </div>         
 
                 <div class="box">
-                  <div class="box-title">
+                <div class="box-title">
                     <h4>Outros Cursos <span id="ed-05" class="rigth ed"><i  class="fas fa-chevron-down"></i></span></h4>
-                  </div>
-                  <div class="box-content iten-05">
+                </div>
+                <div class="box-content iten-05">
                     <span class="sub-title">Cursando Inglês - CILT </span>
                     <br/>
                     <span class="sub-title">Desenvolvedor Full Stack Javascript - IGTI </span>
-                  </div>
+                </div>
                 </div>
 
-              </div>
+            </div>
 
-              <div id="project" class="container project ">
+            <div id="project" class="container project ">
                 <h2 class="title">Portifólio</h2>
                 
                 <div class="container">
                 
                 <div class="carrosel-project">
 
-                  <div class="row">
+                <div class="row">
                     <div class="col-1 ">
-                      <span class="pointer" onclick="plusDivs(+1)">
+                    <span class="pointer" onclick="plusDivs(+1)">
                         <i class="fas fa-arrow-left rigth"></i>
                         
-                      </span>
+                    </span>
                     </div>
                     <div id="carrosel" class="col-10">
 
                     </div>
                     <div class="col-1">
-                      <span class="pointer" onclick="plusDivs(-1)" >
+                    <span class="pointer" onclick="plusDivs(-1)" >
                         <i class="fas fa-arrow-right"></i>                     
-                      </span>
+                    </span>
                     </div>
-                  </div>
+                </div>
                 
                 </div>
                 </div>
-              </div>
+            </div>
 
-              <div id="work" class="container work">
+            <div id="work" class="container work">
                 <h2 class="title"> Trabalhos</h2>
                 <div class="container">
-                  <div class="carrosel-work">
-    
-                    <div class="row">
-                      <div class="col-1 ">
-                        <span class="pointer" onclick="plusDivsWork(+1)">
-                          <i class="fas fa-arrow-left rigth"></i>
-                          
-                        </span>
-                      </div>
-                      <div id="carosel-work" class="col-10">
-  
-                      </div>
-                      <div class="col-1">
-                        <span class="pointer" onclick="plusDivsWork(-1)" >
-                          <i class="fas fa-arrow-right"></i>                     
-                        </span>
-                      </div>
-                    </div>
-                  
-                  </div>
-                </div>
-              </div>
+                <div class="carrosel-work">
 
-              <div id="gallery" class="container gallery">
+                    <div class="row">
+                    <div class="col-1 ">
+                        <span class="pointer" onclick="plusDivsWork(+1)">
+                        <i class="fas fa-arrow-left rigth"></i>
+                        
+                        </span>
+                    </div>
+                    <div id="carosel-work" class="col-10">
+
+                    </div>
+                    <div class="col-1">
+                        <span class="pointer" onclick="plusDivsWork(-1)" >
+                        <i class="fas fa-arrow-right"></i>                     
+                        </span>
+                    </div>
+                    </div>
+                
+                </div>
+                </div>
+            </div>
+
+            <div id="gallery" class="container gallery">
                 <h2 class="title">Galeria</h2>
 
                 <div class="container row images-gallery">
-                  <div class="col-4">
+                <div class="col-4">
                     <img src="./images/Galeria/img (1).jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Mix7">
                     <img src="./images/Galeria/img (2).jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="mix7">
                     <img src="./images/Galeria/img (3).jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Teige Brasil">
-                  </div>
+                </div>
 
-                  <div class="col-4">
+                <div class="col-4">
                     <img
-                      src="./images/Galeria/img (4).jpeg"
-                      class="w-100 shadow-1-strong rounded mb-4"
-                      alt="Teige Brasil"
+                    src="./images/Galeria/img (4).jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Teige Brasil"
                     />
                     <img
-                      src="./images/Galeria/img (5).jpeg"
-                      class="w-100 shadow-1-strong rounded mb-4"
-                      alt="bus"
+                    src="./images/Galeria/img (5).jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="bus"
                     />
                     <img
-                      src="./images/Galeria/img (6).jpeg"
-                      class="w-100 shadow-1-strong rounded mb-4"
-                      alt="ETB"
+                    src="./images/Galeria/img (6).jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="ETB"
                     />
-                  
+                
 
-                  </div>
+                </div>
 
-                  <div class="col-4" id="gellery-desktop">
+                <div class="col-4" id="gellery-desktop">
                     <img
-                      src="./images/Galeria/turma-uniplan.jpeg"
-                      class="w-100 shadow-1-strong rounded mb-4"
-                      alt="UNIP"
-                      width=""
+                    src="./images/Galeria/turma-uniplan.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="UNIP"
+                    width=""
                     />
 
                     <img
-                      src="./images/Galeria/formatura-ced06.jpeg"
-                      class="w-100 shadow-1-strong rounded mb-4"
-                      alt="Yosemite National Park"
+                    src="./images/Galeria/formatura-ced06.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Yosemite National Park"
                     />
 
                     <img
                     src="./images/Galeria//interclasse.jpeg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Escola"
-                  />
-                  </div>
+                />
+                </div>
                 </div>
 
-              </div>
+            </div>
 
-              <div id="contact" class="container contact">
+            <div id="contact" class="container contact">
                 <div class="container nopadding">
-                  <div class="row ">
+                <div class="row ">
                     <div class="container col-6 content-social-midia">
-                      <h3>Contato</h3>
-                      <ul class="nopadding">
+                    <h3>Contato</h3>
+                    <ul class="nopadding">
                         <li class="social"><span class="icon-contato"> <i class="fab fa-whatsapp"></i> </span> (61) 99367-2608</li>
                         <li class="social" ><span class="icon-contato"><i class="fab fa-instagram"></i> </span> gabrielmsantos.dev</li>
                         <li class="social"><span class="icon-contato"> <i class="far fa-envelope"></i> </span> gabrielmarinhodossantoscd@gmail.com</li>
                         <li class="social"><span class="icon-contato"><i class="fab fa-linkedin-in"></i> </span> gabriel-marinho-bsb</li>
                         <li class="social"><span class="icon-contato"><i class="fab fa-github"></i> </span> gabrielMarinhocd</li>
-                      </ul>
-                      <div class="frase center">
+                    </ul>
+                    <div class="frase center">
                         <!-- <span id="frase-name">" O certo pelo certo sempre <br/> vai da certo "</span>
                         <br/>
                         <span id="text-name">Gabriel M. Santos</span> -->
-                      </div>
                     </div>
-    
-    
+                    </div>
+
+
                     <div id="feedback" class="container col-6 blue">
-                      <h3>Deixe seu feedback</h3>
-                      <form onsubmit="feedback()" id="form">
+                    <h3>Deixe seu feedback</h3>
+                    <form onsubmit="feedback()" id="form">
                         <div>
-                          <input type="text" name="name" id="name" placeholder="Nome" required>
+                        <input type="text" name="name" id="name" placeholder="Nome" required>
                         </div>
                         <div>
-                          <input type="email" name="email" id="email" placeholder="email" required>
+                        <input type="email" name="email" id="email" placeholder="email" required>
                         </div>
                         <div>
-                          <textarea  id="message" rows="3" placeholder="Deixe sua menssagem" required></textarea>
+                        <textarea  id="message" rows="3" placeholder="Deixe sua menssagem" required></textarea>
                         </div>
 
                         <div class="center stars">
-                          Avaliação do site
-                          <br>
-                          <a  onclick="Avaliar(1)" href="#">
+                        Avaliação do site
+                        <br>
+                        <a  onclick="Avaliar(1)" href="#">
                             <i id="star-01" class="far fa-star"></i>
-                          </a>
-                          <a onclick="Avaliar(2)" href="#">
+                        </a>
+                        <a onclick="Avaliar(2)" href="#">
                             <i id="star-02" class="far fa-star"></i>
-                          </a>
-                          <a onclick="Avaliar(3)" href="#">
+                        </a>
+                        <a onclick="Avaliar(3)" href="#">
                             <i id="star-03" class="far fa-star"></i>
-                          </a>
-                          <a  onclick="Avaliar(4)" href="#">
+                        </a>
+                        <a  onclick="Avaliar(4)" href="#">
                             <i id="star-04" class="far fa-star"></i>
-                          </a>
-                          <a onclick="Avaliar(5)" href="#">
+                        </a>
+                        <a onclick="Avaliar(5)" href="#">
                             <i id="star-05" class="far fa-star"></i>
-                          </a>
-                          <br>
-                          <span id="avaliacao" class="avaliacao">
+                        </a>
+                        <br>
+                        <span id="avaliacao" class="avaliacao">
 
-                          </span>
+                        </span>
                         </div>
                         <div class="center">
-                          <input  id="submit" type="submit" value="ENVIAR"/>
+                        <input  id="submit" type="submit" value="ENVIAR"/>
                         </div>
-                      </form>
+                    </form>
                     </div>
 
                     <div class="col-12 center copyrigth-content ">
@@ -445,33 +414,33 @@
                         <br/>
                         <span class="name" >GABRIEL MARINHO</span>
                     </div>
-                  </div>
                 </div>
-              </div>
+                </div>
+            </div>
 
             </div>
-          </div>
+        </div>
         </div>
 
-      </div>
+    </div>
 
 
-      <div class="modal modal-menu true" id="modal-mobile" tabindex="-1" aria-labelledby="modal-mobile"
+    <div class="modal modal-menu true" id="modal-mobile" tabindex="-1" aria-labelledby="modal-mobile"
         aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
-          <div class="modal-content">
+        <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <div class="menu">
+            <div class="menu">
                 <div class="logo-modal center">
-                  <img class="img-fluid" src="./images/Logo/logo-gm-ondas.png" alt="logo ondas - Gabriel Marinho" >
-                  <div class="center">GABRIEL MARINHO DOS SANTOS</div>
+                <img class="img-fluid" src="./images/Logo/logo-gm-ondas.png" alt="logo ondas - Gabriel Marinho" >
+                <div class="center">GABRIEL MARINHO DOS SANTOS</div>
                 </div>
             
                 <div class="link-menu">
-                  <ul>
+                <ul>
                     <li><a href="#home"  rel="noopener noreferrer">Home</a></li>
                     <li><a href="#education"  rel="noopener noreferrer">Formação Acâdemica</a></li>
                     <li><a href="#project"  rel="noopener noreferrer">Portifólio</a></li> 
@@ -479,143 +448,124 @@
                     <li> <a href="#gallery" rel="noopener noreferrer">Galeria</a> </li>
                     <li><a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank" rel="noopener noreferrer">Crurriculo <i id="icon-download" class="fas fa-download"></i></a></li> 
                     <li><a href="#contact"  rel="noopener noreferrer">Contato</a></li> 
-                  </ul>
+                </ul>
                 </div>
                 
                 <div class=" container search">
-                  <div class="input-group mb-3">
+                <div class="input-group mb-3">
                     <input id="input-search" type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
                     <div class="input-group-append  container">
-                      <button class="submit-lente" type="submit">
+                    <button class="submit-lente" type="submit">
                         <i class="fa fa-search"></i>
-                      </button>
+                    </button>
                     </div>
-                  </div>
+                </div>
                 </div>
 
                 <div class="container higthlights center ">
-                  <div class="title-menu">
+                <div class="title-menu">
                     <h3>
-                      Destaques recentes
+                    Destaques recentes
                     </h3>
                     <br/>
-                  </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-2">
-                      <a href="#work"  rel="noopener noreferrer">
+                    <a href="#work"  rel="noopener noreferrer">
                         <img with= "" src="./images/projetos-img/studiojo.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/teige.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/martelinho-de-ouro.png" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#work" rel="noopener noreferrer">
+                    <a href="#work" rel="noopener noreferrer">
                         
                         <img src="./images/projetos-img/assistencia_awp.png" alt="">
-                      </a>
+                    </a>
                     </div>
-                  </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">
+                    <a href="#project" rel="noopener noreferrer">
                         <img src="./images/projetos-img/controlhe-finaceiro.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">
+                    <a href="#project" rel="noopener noreferrer">
 
                         <img src="./images/projetos-img/pokedex.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">     
-                      </a>
-                      <img src="./images/projetos-img/tabela-brasileiro.jpg" alt="">
+                    <a href="#project" rel="noopener noreferrer">     
+                    </a>
+                    <img src="./images/projetos-img/tabela-brasileiro.jpg" alt="">
                     </div>
                     <div class="col-2">
-                      <a href="#project" rel="noopener noreferrer">                     
+                    <a href="#project" rel="noopener noreferrer">                     
                         <img src="./images/projetos-img/app-mata-mosquito.jpg" alt="">
-                      </a>
+                    </a>
                     </div>
-                  </div>
+                </div>
                 </div>
 
                 <div class="container social-midia">
-                  <div class="title-menu">
+                <div class="title-menu">
                     <h3>
-                      Redes Sociais
+                    Redes Sociais
                     </h3>
                     <br/>
-                  </div>
-                  <div class="row ">
+                </div>
+                <div class="row ">
                     <div class="col-1">
-                      <a href="https://api.whatsapp.com/send?phone=5561993672608&text=Ol%C3%A1%2C%20visitei%20o%20seu%20site%20podemos%20conversar" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=5561993672608&text=Ol%C3%A1%2C%20visitei%20o%20seu%20site%20podemos%20conversar" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="https://www.instagram.com/gabrielmsantos_dev/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/gabrielmsantos_dev/" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-instagram"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="https://github.com/gabrielMarinhocd/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/gabrielMarinhocd/" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="http://www.linkedin.com/in/gabriel-marinho-bsb" target="_blank" rel="noopener noreferrer">
+                    <a href="http://www.linkedin.com/in/gabriel-marinho-bsb" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin-in"></i>
-                      </a>
+                    </a>
                     </div>
                     <div class="col-1">
-                      <a href="mailto:gabrielmarinhodossantoscd@gmail.com"  rel="noopener noreferrer">
+                    <a href="mailto:gabrielmarinhodossantoscd@gmail.com"  rel="noopener noreferrer">
                         <i class="far fa-envelope"></i>
-                      </a>                
+                    </a>                
                     </div>
-                  </div>
-
-                </div>
-              
-      
                 </div>
 
-              </div>
+                </div>
+            
+    
+                </div>
 
             </div>
 
-          </div>
+            </div>
+
         </div>
-      </div>
+        </div>
+    </div>
 
     </div>
-</div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://kit.fontawesome.com/7756b3057a.js" crossorigin="anonymous"></script>
-  <script src="./js/english-body.js"></script>
-  <script src="./js/pt-body.js"></script>
-  <script src="./js/conteudo.js"></script>
-  <script src="./js/starts.js"></script>
-  <script src="./js/js.js"></script>
-</body>
-
-</html>
+`

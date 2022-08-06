@@ -873,3 +873,30 @@ a.active-icon:hover {
   border-color: #ffe000;
 }
 
+.language {
+  /* background-color: #19202b;
+  padding: 10px; */
+  border-radius: 3px;
+  position: absolute;
+  left: auto;
+  right: 100px;
+}
+
+.language img {
+  background: #19202b;
+  padding: 5px;
+  width: 40px;
+  margin: 0;
+  width: 40px;
+  border-radius: 3px;
+}
+
+.language img:hover {
+  background: #5077fb;
+  padding: 5px;
+  width: 40px;
+  margin: 0;
+  width: 40px;
+  border-radius: 3px;
+}
+

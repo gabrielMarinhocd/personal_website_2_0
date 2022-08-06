@@ -202,6 +202,17 @@ const agradecimento = (res) => {
 
 const inputValue = document.querySelector('#form');
 inputValue.addEventListener('submit', (event) => event.preventDefault());
+const bodyPtbr = document.querySelector('#pt-br')
+const bodyUsa = document.querySelector('#usa')
+
+document.querySelector('#usa').addEventListener('click', () => {
+  bodyPtbr.innerHTML = englishBody;
+})
+
+document.querySelector('#pt-br').addEventListener('click', () => {
+  bodyUsa.innerHTML = ptBr;
+})
+
 
 
 
