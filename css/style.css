@@ -521,9 +521,6 @@ span#frase-name {
   font-size: 20px;
 }
 
-
-/* CSS mobile */
-
 @media only screen and (max-width: 800px) {
 
   .modal-curriculum {

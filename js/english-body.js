@@ -575,7 +575,7 @@ const englishBody = `
         </div>
         <div class=" none-modal
         ">
-          <h5>Curriculo:</h5>
+          <h5>Curriculum:</h5>
           <div class="close" id="closeCurriculum">
              <a id="closeCurriculum" type="button" class="btn-close" onclick="closeCurriculum()" ></a>
           </div>
@@ -583,9 +583,10 @@ const englishBody = `
             <img class="icon-model" src="./images/icones/brazil-flag.png" />
             Português</a>
           ||
-          <a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank">
+          <a href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank">
             <img class="icon-model" src="./images/icones/united-states.png" />
-            English</a>
+            English
+          </a>
         </div>
   
       </div>

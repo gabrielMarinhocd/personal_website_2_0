@@ -585,8 +585,8 @@ const ptBr = `
           <img class="icon-model" src="./images/icones/brazil-flag.png" />
           Português</a>
         ||
-        <a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank">
-          <img class="icon-model" src="./images/icones/united-states.png" />
-          English</a>
+        <a href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank">
+        <img class="icon-model" src="./images/icones/united-states.png" />
+        English</a>
       </div>
 `
