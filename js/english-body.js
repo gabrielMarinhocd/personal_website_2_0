@@ -38,7 +38,7 @@ const englishBody = `
                     <li><a href="#project"  rel="noopener noreferrer">Projects</a></li> 
                     <li><a href="#work"  rel="noopener noreferrer">Works</a></li> 
                     <li> <a href="#gallery" rel="noopener noreferrer">Gallery</a> </li>
-                    <li><a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank" rel="noopener noreferrer">Curriculum  <i id="icon-download" class="fas fa-download"></i></a></li> 
+                    <li  onclick="modalCurriculum()"><a href="#" rel="noopener noreferrer">Curriculum  <i id="icon-download" class="fas fa-download"></i></a></li> 
                     <li><a href="#contact"  rel="noopener noreferrer">Contact</a></li> 
                   </ul>
                 </div>
@@ -445,7 +445,7 @@ const englishBody = `
                     <li><a href="#project"  rel="noopener noreferrer">Projects</a></li> 
                     <li><a href="#work"  rel="noopener noreferrer">Works</a></li> 
                     <li> <a href="#gallery" rel="noopener noreferrer">Gallery</a> </li>
-                    <li><a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank" rel="noopener noreferrer">Crurriculo <i id="icon-download" class="fas fa-download"></i></a></li> 
+                    <li  onclick="modalCurriculum()" data-bs-dismiss="modal" aria-label="Close" ><a href="#"  rel="noopener noreferrer">Curriculum <i id="icon-download" class="fas fa-download"></i></a></li> 
                     <li><a href="#contact"  rel="noopener noreferrer">Contact</a></li> 
                   </ul>
                 </div>
@@ -573,5 +573,20 @@ const englishBody = `
 
           </div>
         </div>
+        <div class=" none-modal
+        ">
+          <h5>Curriculo:</h5>
+          <div class="close" id="closeCurriculum">
+             <a id="closeCurriculum" type="button" class="btn-close" onclick="closeCurriculum()" ></a>
+          </div>
+          <a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank" >
+            <img class="icon-model" src="./images/icones/brazil-flag.png" />
+            Português</a>
+          ||
+          <a href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf" target="_blank">
+            <img class="icon-model" src="./images/icones/united-states.png" />
+            English</a>
+        </div>
+  
       </div>
 `

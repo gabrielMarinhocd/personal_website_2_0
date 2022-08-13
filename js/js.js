@@ -207,6 +207,16 @@ inputValue.addEventListener('submit', (event) => event.preventDefault());
 
 const body = document.querySelector('#body')
 
+const closeCurriculum = () => {
+  document.querySelector('.modal-curriculum').className = 'none-modal';  
+ }
+
+const modalCurriculum = () =>{
+  document.querySelector('.none-modal').className = 'modal-curriculum';  
+  $('#modal-mobile').modal('hide')
+}
+
+
 function alterLenguage(i) {
   if (i == 1 ) {
     body.innerHTML = englishBody;
@@ -221,6 +231,7 @@ function alterLenguage(i) {
   Avaliar();
   
 }
+
 
 // document.querySelector('#usa').addEventListener('click', () => {
 //   body.innerHTML = englishBody;

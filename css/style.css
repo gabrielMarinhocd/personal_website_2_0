@@ -525,6 +525,19 @@ span#frase-name {
 /* CSS mobile */
 
 @media only screen and (max-width: 800px) {
+
+  .modal-curriculum {
+    position: fixed;
+    top: 50%;
+    left: auto;
+    right: 32px;
+    width: 300px;
+    background-color: #19202b;
+    border: 1px solid #ffffff0f;
+    padding: 20px;
+    text-align: center;
+}
+
   .none{
     display: none;
   }
@@ -788,6 +801,17 @@ span#frase-name {
 }
 
 @media only screen and (min-width: 800px) {
+  .modal-curriculum{
+    position: fixed;
+    top: 5%;
+    left: 40%;
+    right: 40%;
+    width: 300px;
+    background-color: #19202b;
+    border: 1px solid #ffffff0f;
+    padding: 20px;
+    text-align: center;
+  }  
 
   .language {
     border-radius: 3px;
@@ -913,5 +937,45 @@ a.active-icon:hover {
   border-radius: 3px;
 }
 
+.none-modal{
+  display: none;
+}
 
+.modal-curriculum  {
+  letter-spacing: 0.3px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
 
+.modal-curriculum a {
+  text-decoration: none;
+  color: white;
+}
+
+.modal-curriculum a :hover {
+  color: #5077fb;
+}
+
+.modal-curriculum a:hover {
+  color: #ffe000;
+  text-decoration: none;
+}
+
+.close {
+  float: right;
+}
+.close button:hover{
+  color: #ffe000;
+  text-decoration: none;
+}
+
+img.icon-model {
+  height: 18px;
+}
+
+a#closeCurriculum {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
