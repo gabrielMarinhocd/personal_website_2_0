@@ -1080,7 +1080,7 @@ const englishBody = `<div class="mobile">
     ></a>
   </div>
   <a
-    href="./docs/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf"
+    href="./docs/curriculo_desenvolvedor_gabriel_marinho-dos_santos-13-04-2024.pdf"
     target="_blank"
   >
     <img class="icon-model" src="./images/icones/brazil-flag.png" />
@@ -1088,7 +1088,7 @@ const englishBody = `<div class="mobile">
   >
   ||
   <a
-    href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS.pdf"
+    href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS-13-04-2024.pdf"
     target="_blank"
   >
     <img class="icon-model" src="./images/icones/united-states.png" />
