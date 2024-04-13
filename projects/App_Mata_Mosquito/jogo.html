@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gabriel Blog</title>
+	<link rel="icon" href="imagens/icon.png">
+   	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <script src="jogo.js"></script>
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+<!-- onresize para atualizar as variaveis altura e largura toda vez que o tamnho da tela for modificada -->
+	
+	<div class="painel"> 
+		<div class="vidas">
+			<img id="v1" src="imagens/coracao_cheio.png">
+			<img id="v2" src="imagens/coracao_cheio.png">
+			<img  id="v3" src="imagens/coracao_cheio.png">
+		</div>
+
+		<div class="cronometro">Tempo restante: <span id="cronometro"></span> </div>
+	</div>
+
+	<script type="text/javascript">
+		//Adicionando tempo ao cronometro
+		document.getElementById('cronometro').innerHTML = tempo
+		// Adicionando um novo mosquito a cada segundo (1000 milesegundos = 1 segundo) 
+		 var criarMosquito = setInterval (function(){
+		 	posicaoRandomica()
+		}, criarMosquitoTempo)
+		 //criarMosquitoTempo: Possui tempo definido 
+	</script>
+</body>
+</html>

@@ -9,7 +9,7 @@ const menu = [
   {
     id: 'app-mata-mosquito',
     titulo: 'APP Mata Mosquito',
-    link: './projects/App_Mata_Mosquito/App_Mata_Mosquito/inicio_jogo.html',
+    link: './projects/App_Mata_Mosquito/inicio_jogo.html',
     img: './images/projetos-img/app-mata-mosquito.jpg',
     github: 'https://github.com/gabrielMarinhocd/App_Mata_Mosquito',
   },
@@ -30,7 +30,7 @@ const menu = [
   {
     id: 'controle-financeiro-pessoal',
     titulo: 'Controle Financeiro Pessoal',
-    link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
+    link: 'diseable',
     img: './images/projetos-img/controlhe-finaceiro.jpg',
     github: 'https://github.com/gabrielMarinhocd/Controlhe-Financeiro-Pessoal',
   },
@@ -51,21 +51,21 @@ const menu = [
   {
     id: 'react-countries',
     titulo: 'React Countries',
-    link: 'https://gabriel-react-countries.herokuapp.com/',
+    link: 'diseable',
     img: './images/projetos-img/react-countries.jpg',
     github: 'https://github.com/gabrielMarinhocd/React-countries',
   },
   {
     id: 'react-salary',
     titulo: 'React Salary',
-    link: 'https://grabriel-salary.herokuapp.com/',
+    link: 'diseable',
     img: './images/projetos-img/react-salary.jpg',
     github: 'https://github.com/gabrielMarinhocd/React-salary',
   },
   {
     id: 'react-juros-compostosy',
     titulo: 'React - Juros Compostos',
-    link: 'https://react-juros-compostos.herokuapp.com/',
+    link: 'diseable',
     img: './images/projetos-img/rect_juros_compostos.jpg',
     github: 'https://github.com/gabrielMarinhocd/Rect-Juros-Compostos',
   },
@@ -90,7 +90,7 @@ const menuTrabalhos = [
   {
     id: 'imperiojoias',
     titulo: 'Império Jóias',
-    link: 'http://projetos.teigebrasil.com.br/imperio',
+    link: 'diseable',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/imperio-joias.png',
     github: 'diseable'
@@ -98,7 +98,7 @@ const menuTrabalhos = [
   {
     id: 'martelinhho',
     titulo: 'Martelinho de Ouro',
-    link: 'http://projetos.teigebrasil.com.br/martelinho',
+    link: 'diseable',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/martelinho-de-ouro.png',
     github: 'diseable'
@@ -106,7 +106,7 @@ const menuTrabalhos = [
   {
     id: 'studiojo',
     titulo: 'Studio Jo',
-    link: 'http://projetos.teigebrasil.com.br/studiojo/',
+    link: 'diseable',
     subTitulo: 'Wordpress',
     img: './images/projetos-img/studiojo.png',
     github: 'diseable'
@@ -124,7 +124,7 @@ const menuTrabalhos = [
     link: 'https://teigetour.com.br/',
     subTitulo: 'Wordpress',
     img:
-      'https://teigetour.com.br/wp-content/uploads/2021/10/logo-teigetour4-removebg-preview-300x212.png',
+      'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
     github: 'diseable'
   },
 ];
@@ -142,7 +142,7 @@ const redesSociais = [
     img: './images/github-logo_icon-icons.com_73546.png',
   },
   {
-    id: 'linkedim',
+    id: 'linkedin',
     link: 'http://www.linkedin.com/in/gabriel-marinho-bsb',
     img: './images/linkedin-sign_icon-icons.com_73508.png',
   },

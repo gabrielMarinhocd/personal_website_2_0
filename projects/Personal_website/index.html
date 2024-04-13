@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gabriel Marinho - Personal website</title>
+  <link rel="icon" href="./Imagens/icon.png">
+  <meta name="keywords" content="Gabriel Marinho, Desenvolvedor WEB,  Técnico em Informática">
+  <meta name="description" content="Site pessoal e portifolio desenvolvedor web full stacks javascript ">
+  <meta name="author" content="Gabriel Marinho Dos Santos - Desenvolvedor WEB">
+  <meta http-equiv="refresh" content="300">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pangolin&family=Paytone+One&family=Signika:wght@600&&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/css.css" media="screen,projection" />
+
+</head>
+
+<body>
+  <ul id="dropdown1" class="dropdown-content white white-text">
+    <!--Conteudo do array  menu  -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content white white-text">
+    <!--Conteudo do array  menu  -->
+  </ul>
+
+  <ul id="dropdown-mobile" class="dropdown-content white white-text">
+    <!--Conteudo do array  menuTrabalhos  -->
+  </ul>
+  <ul id="dropdown-mobile2" class="dropdown-content white white-text">
+    <!--Conteudo do array  menuTrabalhos  -->
+  </ul>
+
+  <div class="navbar-fixed">
+    <nav class="blue darken-4 white-text" role="navigation">
+      <div class="nav-wrapper container">
+
+        <div class="desktop">
+          <a id="logo-container" href="#meusDados" class="brand-logo white-text">
+            GM
+          </a>
+        </div>
+        <div class="mobile">
+          <a id="logo-container" href="#meusDados" class="brand-logo white-text">GM</a>
+        </div>
+
+        <ul class="hide-on-med-and-down right">
+          <li><a href="#meusDados">Home</a></li>
+          <li><a href="#boasVindas">Boas vindas</a></li>
+          <li><a href="#formacaoAcademica">Formação acadêmica</a></li>
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown1">Projetos<i
+                class="material-icons right">arrow_drop_down</i></a>
+          </li>
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown2">Trabalhos<i
+                class="material-icons right">arrow_drop_down</i></a>
+          </li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="#meusDados">Home</a></li>
+    <li><a href="#boasVindas">Boas Vindas</a></li>
+    <li><a href="#formacaoAcademica">Formação acadêmica</a></li>
+    <li>
+      <a class="dropdown-trigger" href="#!" data-target="dropdown-mobile">Projetos<i
+          class="material-icons right">arrow_drop_down</i></a>
+    </li>
+    <li>
+      <a class="dropdown-trigger" href="#!" data-target="dropdown-mobile2">Trabalhos<i
+          class="material-icons right">arrow_drop_down</i></a>
+    </li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+
+  <div class="container ">
+    <div class="conteudo " id="meusDados">
+      <div class="meus-dados">
+        <div class="animate__animated animate__fadeIn animate__slow animate__delay-1s">
+          <img class="minha-foto z-depth-4" src="./Imagens/foto-Gabriel.png" alt="" />
+        </div>
+        <h3 class="nome animate__animated animate__slow animate__fadeIn animate__delay-1s">
+          Gabriel Marinho
+        </h3>
+        <h5 class="sub-nome animate__animated animate__fadeIn animate__delay-2s">
+          Desenvolvedor Web na
+          <a href="https://teigebrasil.com.br/" target="_blank">Teige Brasil</a>
+        </h5>
+        <h5 class="sub-nome animate__animated animate__fadeIn animate__delay-3s">
+          Técnico em Informática -
+          <a href="http://www.etb.com.br/" target="_blank">ETB</a>
+        </h5>
+        <h5 class="sub-nome animate__animated animate__fadeIn animate__delay-4s">
+          Estudante de Analise e Desenvolvimento de Sistemas na
+          <a href="https://www.unip.br/" target="_blank">UNIP - Brasília</a>
+        </h5>
+        <h5 class="sub-nome animate__animated animate__fadeIn animate__delay-5s">
+         Cursando MBA - Desenvolvedor Mobile Multiplataformas
+          <a href="https://www.igti.com.br/pos-graduacao/desenvolvedor-mobile" target="_blank">IGTI</a>
+        </h5>
+      </div>
+    </div>
+
+    <div class="conteudo " id="boasVindas">
+      <div class="sobre  animate__animated animate__fadeIn animate__delay-5s">
+        <h3 class="title-sobre">Boas vindas</h3>
+        <p class="texto">
+          Olá! Eu sou Gabriel, este meu site onde busco mostrar minhas
+          competências e falar um pouco sobre minha vida. Sendo assim aqui você vai
+          encontrar informações sobre minha formação acadêmica, informações
+          contato, além de projetos acadâmicos como
+          desenvolvedor. Então pense nesse site como um currículo animado e
+          desfrute do conteúdo. Obrigado pelo acesso e
+          <span id="boas-vindas"></span>.
+        </p>
+        <br />
+      </div>
+    </div>
+
+    <div class="conteudo " id="formacaoAcademica">
+      <div class="sobre  center  animate__animated animate__fadeIn animate__delay-5s">
+        <h4 class="title-sobre">Formação acadêmica</h4>
+
+        <div class="row">
+          <div class="col s12">
+            <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header">Ensino Médio</div>
+                <div class="collapsible-body">
+                  <span>CED 06 - Ceilâdia DF</span>
+                  <br />
+                  <a href="http://ced6online.blogspot.com/" target="_blank" rel="noopener noreferrer">Visitar site</a>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">Técnico em Informática</div>
+                <div class="collapsible-body">
+                  <span>ETB - Escola Técnica de Brasília</span>
+                  <br />
+                  <a href="http://www.etb.com.br/" target="_blank" rel="noopener noreferrer">Visitar site</a>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">Analise e Desenvolvimento de Sistemas</div>
+                <div class="collapsible-body">
+                  <span>Graduado na UNIP - Brasília</span>
+                  <br />
+                  <a href="https://www.unip.br/universidade/localidades/df/brasilia/unip---brasilia" target="_blank" rel="noopener noreferrer">Visitar site</a>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">MBA - Desenvolvedor Mobile Multiplataformas</div>
+                <div class="collapsible-body">
+                  <span> IGTI</span>
+                  <br />
+                  <a href="https://igti.com.br" target="_blank" rel="noopener noreferrer">Visitar site</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col s12 ">
+            <h4 class="title-sobre">Outros Cursos</h3>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header ">Desenvolvedor Full Stacks Javascript</div>
+                  <div class="collapsible-body">
+                    <span>IGTI – Instituto de Gestão e Tecnologia da Informação</span>
+                    <br />
+                    <a href="./Doumentos/Gabriel_Marinho_Bootcamp_Full_Stack .pdf" target="_blank" rel="Diploma">Ver
+                      certificado</a>
+                    <br />
+                    <a href="https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack/" target="_blank"
+                      rel="IGTI">Visitar site</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Curso de Língua Inglesa</div>
+                  <div class="collapsible-body">
+                    <span>CILT – Centro Interescolar de Línguas de Taguatinga</span>
+                    <br />
+                    <a href="https://sites.google.com/edu.se.df.gov.br/bibliotecavirtual-cilt/in%C3%ADcio/oportunidade-bolsa-de-estudo"
+                      target="_blank" rel="noopener noreferrer">Visitar site</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Scrum Foundation Certificate (SFC) </div>
+                  <div class="collapsible-body">
+                    <span>Certiprof</span>
+                    <br />
+                    <a href="./Doumentos/Certificate-Scrum_compressed.pdf" target="_blank" rel="noopener noreferrer">Ver
+                      certificação</a>
+                    <br />
+                    <a href="https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-ptbr"
+                      target="_blank" rel="noopener noreferrer">Visitar site</a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="conteudo " id="projetos">
+      <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
+        <h3 class="title-sobre">Meus projetos</h3>
+        <div class="carousel" id="carousel">
+          <!--Conteudo do insertCarosel -->
+        </div>
+      </div>
+    </div>
+
+    <div class="conteudo " id="trabalhos">
+      <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
+        <h3 class="title-sobre">Trabalhos</h3>
+        <div class="carousel" id="carouselTrabalhos">
+          <!--Conteudo do insertCaroselTrabalhos -->
+        </div>
+      </div>
+    </div>
+
+    <div class="conteudo " id="contato">
+      <div class="sobre contato center animate__animated animate__fadeIn animate__delay-5s">
+        <h3 class="title-sobre">Contato</h3>
+        <ul>
+          <li><b>Email: </b> gabrielmarinhodossantoscd@gmail.com</li>
+          <li><b>Telefone:</b> (61) 9-9367-2608</li>
+        </ul>
+        <div class="row" aling="center">
+          <div class="col s12"><b>Curriculo</b></div>
+          <div class="col s12 zoom">
+            <a href="./Doumentos/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS_compressed.pdf" target="_blank"
+              rel="noopener noreferrer">
+              <div class="animate__animated animate__infinite animate__pulse">
+                <img id="pdf" src="./Imagens/file_type_pdf_icon_130274.png" alt="" /></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="redes-sociais animate__animated animate__fadeIn animate__delay-5s" id="redes-sociais">
+        <!--Conteudo do array  redes-sociais  -->
+      </div>
+    </div>
+
+
+    <div class="conteudo " id="boasVindas">
+      <div class="sobre feedback animate__animated animate__fadeIn animate__delay-5s">
+        <div class="row">
+          <div class="col s12">
+            <div class="row " id="feedback">
+              <h3 class="title-sobre">Deixe seu feedback</h3>
+              <form onsubmit="feedback()" id="form">
+
+                <div class="input-field col s12">
+
+                  <input id="name" name="name" type="text" required />
+                  <label>Nome</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input id="inputEmail" name="inputEmail" type="email" required />
+                  <label>E-mail</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <textarea id="menssagem" class="materialize-textarea" required></textarea>
+                  <label>Messagem</label>
+                </div>
+                <div class="input-field col s12">
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(1)">
+                    <img src="Imagens/star0.png" id="s1"></a>
+
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="Imagens/star0.png" id="s2"></a>
+
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="Imagens/star0.png" id="s3"></a>
+
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="Imagens/star0.png" id="s4"></a>
+
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(5)">
+                    <img src="Imagens/star0.png" id="s5"></a>
+                </div>
+                <p id="rating"></p>
+
+                <button class="waves-effect waves-light btn"> enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+
+  <footer>
+    <div class="container animate__animated animate__fadeIn animate__slow animate__delay-5s ">
+      <div class="fixed-action-btn">
+        <div id="menu-footer" class="deactivate">
+          <div class=" animate__animated animate__fadeIn ">
+            <a class="icons-mobile-footer whatsapp" href="https://api.whatsapp.com/send?phone=5561993672608&text=Ol%C3%A1%2C%20visitei%20o%20seu%20site%20podemos%20conversar
+            " target="_blank" rel="noopener noreferrer">
+              <img class="social-media" src="./Imagens/whatsapp.svg" alt="">
+            </a>
+
+          </div>
+          <div class=" animate__animated animate__fadeIn animate__fast ">
+            <a id="apps" class="icons-mobile-footer linkedin" href="http://www.linkedin.com/in/gabriel-marinho-bsb
+            " target="_blank" rel="noopener noreferrer">
+              <img class="social-media" src="./Imagens/linkedin.svg" alt="">
+            </a>
+          </div>
+          <div class=" animate__animated animate__fadeIn animate__faster">
+            <a class="icons-mobile-footer github" href="https://github.com/gabrielMarinhocd/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="social-media" src="./Imagens/github-logo_icon-icons.com_73546.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <a id="menu12" class="waves-effect waves-teal btn btn-floating btn-medium pulse"><i
+            class="large material-icons">apps</i></a>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="./js/funcoes.js"></script>
+  <script src="./js/conteudo.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="./js/js.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.collapsible').collapsible();
+    });
+
+    $('.dropdown-trigger').dropdown();
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
+
+    $(document).ready(function () {
+      $('.tap-target').tapTarget();
+    });
+  </script>
+</body>
+
+</html>

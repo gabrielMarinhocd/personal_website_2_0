@@ -14,7 +14,7 @@
   -webkit-border-radius: 10px;
   border-radius: 5px;
   background: #5077fb;
-  -webkit-box-shadow: inset 0 0 5px #19202b; 
+  -webkit-box-shadow: inset 0 0 5px #19202b;
   width: 10px;
 }
 
@@ -22,7 +22,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .body {
   margin: 0;
@@ -42,11 +41,11 @@ body {
   float: right;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
   color: #5077fb;
 }
@@ -59,7 +58,7 @@ body {
   width: 250px;
 }
 
-#icon-download{
+#icon-download {
   height: 12px;
   padding-top: 8px;
 }
@@ -81,9 +80,9 @@ body {
   max-width: 12px;
 }
 
-.link-menu{
+.link-menu {
   padding-top: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border-bottom: #6285fb 0.2px solid;
   margin-top: 10px;
 }
@@ -109,7 +108,7 @@ input#input-search {
 input#input-search::placeholder {
   color: white;
   font-size: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.3px;
 }
 
@@ -150,8 +149,8 @@ input#input-search::placeholder {
 .title-menu h3 {
   font-size: 12px;
   float: left;
-  color:white;
-  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-family: "Poppins", sans-serif;
   margin-left: 10px;
 }
 
@@ -181,21 +180,19 @@ input#input-search::placeholder {
   border-color: #ffe000;
 }
 
-
 /* css do conteudo */
 
-.conteudo{
+.conteudo {
   overflow-y: scroll;
   overflow-x: hidden;
   max-height: 700px;
 }
 
-
-.conteudo:hover{
+.conteudo:hover {
   overflow-y: auto;
 }
 
-.home{
+.home {
   margin: 0 10px 0 10px;
   background-color: #19202b;
   height: 100%;
@@ -204,16 +201,11 @@ input#input-search::placeholder {
   position: relative;
 }
 
-.foto-gabriel{
+.foto-gabriel {
   position: absolute;
   top: 10%;
-  left: 38%;
-}
-
-#foto-gabriel {
+  left: 35%;
   border-radius: 100%;
-  width: 200px;
-  margin-top: 150px;
 }
 
 .home .content {
@@ -240,7 +232,7 @@ h2.title {
   color: #5077fb;
   line-height: 1.6px;
   letter-spacing: 1.3px;
-  margin: 10px 0 50px 0 ;
+  margin: 10px 0 50px 0;
 }
 
 .box {
@@ -250,7 +242,7 @@ h2.title {
   font-weight: 600;
 }
 
-.box h4{
+.box h4 {
   font-weight: 600;
   padding: 0;
   margin: 0;
@@ -283,10 +275,9 @@ h2.title {
   color: #ffe000;
 }
 
-.ed{
+.ed {
   cursor: pointer;
 }
-
 
 .project img {
   padding: 30px;
@@ -309,11 +300,11 @@ h2.title {
   margin-top: 10%;
 }
 
-.slide{
+.slide {
   position: relative;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
   color: #5077fb;
 }
@@ -324,7 +315,6 @@ h2.title {
   right: 45px;
 }
 
-
 .icon-slide a {
   text-decoration: none;
 }
@@ -332,13 +322,10 @@ h2.title {
 .icon-slide a {
   text-decoration: none;
 }
-
-
 
 .work img {
   padding: 30px;
 }
-
 
 .work .col-1 {
   display: flex;
@@ -347,7 +334,6 @@ h2.title {
   flex-direction: column;
   text-align: center;
 }
-
 
 .work .carousel {
   overflow: hidden;
@@ -377,12 +363,8 @@ h2.title {
   width: 100%;
 }
 
-.gallery h2{
+.gallery h2 {
   margin-bottom: 30px;
-}
-
-.container.row.images-gallery {
-  margin-top: 5%;
 }
 
 .gallery .col-4 img {
@@ -390,7 +372,7 @@ h2.title {
   height: auto;
 }
 
-.contact{
+.contact {
   margin: 10px 10px 0 10px;
   background-color: #19202b;
   min-height: 100%;
@@ -403,7 +385,6 @@ h2.title {
   letter-spacing: 1.3px;
   font-weight: 400;
 }
-
 
 .col-6.content-social-midia {
   color: #5077fb;
@@ -423,41 +404,40 @@ li.social {
   margin-right: 2px;
 }
 
-.blue{
+.blue {
   padding: 60px 30px;
 }
 
-
-.blue input{
+.blue input {
   width: 100%;
   margin: 10px 0px;
   padding: 10px;
   border: solid 0.5px;
   border-color: rgba(255, 255, 255, 0.45);
   border-radius: 2px;
-  background-color: #5077fb;;
+  background-color: #5077fb;
 }
 
-.blue textarea{
+.blue textarea {
   width: 100%;
   margin: 10px 0px;
   padding: 10px;
   border: solid 0.5px;
   border-color: rgba(255, 255, 255, 0.45);
   border-radius: 5px;
-  background-color: #5077fb;;
+  background-color: #5077fb;
 }
 
-.blue input::placeholder{
+.blue input::placeholder {
   color: white;
   font-size: 12px;
 }
 
-.blue textarea::placeholder{
+.blue textarea::placeholder {
   color: white;
   font-size: 12px;
 }
-.blue h3{
+.blue h3 {
   font-size: 18px;
 }
 
@@ -471,13 +451,12 @@ li.social {
   color: white;
 }
 
-#submit{
+#submit {
   color: white;
   background-color: #f5f5f50f;
   width: 30%;
   padding: 10px;
 }
-
 
 input#submit:hover {
   background-color: #f8f9fa;
@@ -485,16 +464,12 @@ input#submit:hover {
   border: 0.5px solid #5077fb;
 }
 
-.frase {
-  margin-top: 30px;
-  font-family: 'Caveat', cursive;
-}
 
 .copyrigth-content {
   padding: 60px;
   background-color: #000000;
   font-size: 18px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   line-height: 2.5;
   letter-spacing: 1.3px;
 }
@@ -514,15 +489,19 @@ span.name {
 
 span#text-name {
   line-height: 2.5;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
-span#frase-name {
-  font-size: 20px;
+
+
+.perfil {
+  text-align: center;
+  border-radius: 100%;
+  max-width: 240px;
+  margin-top: 150px;
 }
 
 @media only screen and (max-width: 800px) {
-
   .modal-curriculum {
     position: fixed;
     top: 50%;
@@ -533,9 +512,9 @@ span#frase-name {
     border: 1px solid #ffffff0f;
     padding: 20px;
     text-align: center;
-}
+  }
 
-  .none{
+  .none {
     display: none;
   }
 
@@ -547,30 +526,30 @@ span#frase-name {
     left: 30%;
   }
 
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1050;
-  width: 100vw;
-  height: AUTO;
-  background-color: #000;
-}
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: AUTO;
+    background-color: #000;
+  }
 
   #gellery-desktop {
-    DISPLAY: NONE;
+    display: NONE;
   }
 
   .home h1 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
-  } 
-  
+  }
+
   .home h3 {
     font-size: 20px;
     line-height: 1.5;
-  } 
-  
+  }
+
   .desktop-menu {
     display: none;
   }
@@ -607,7 +586,7 @@ span#frase-name {
 
   .mobile {
     background-color: #19202b;
-    border-bottom: #ffffff59 0.5px solid ;
+    border-bottom: #ffffff59 0.5px solid;
   }
 
   .modal-header {
@@ -619,7 +598,7 @@ span#frase-name {
     padding: 0px;
     margin-bottom: 10px;
   }
-  
+
   button.open-menu {
     font-size: 18px;
     padding: 5px 12px 5px 12px;
@@ -629,10 +608,9 @@ span#frase-name {
     color: white;
   }
 
-
   .background-body {
     margin: 0;
-    background: url('../images/fundo.jpg');
+    background: url("../images/galeria/paisagem-praia-santinho.jpg");
     position: relative;
     min-height: 100vh;
     min-width: 100%;
@@ -651,13 +629,7 @@ span#frase-name {
   .foto-gabriel {
     position: absolute;
     top: -84px;
-    left: 30%;
-  }
-
-  #foto-gabriel {
-    border-radius: 100%;
-    width: 140px;
-    margin-top: 150px;
+    left: 25%;
   }
 
   .home {
@@ -677,7 +649,7 @@ span#frase-name {
     color: white;
     line-height: 1.6px;
     letter-spacing: 1.3px;
-    font-weight: 400; 
+    font-weight: 400;
   }
 
   h2.title {
@@ -692,7 +664,7 @@ span#frase-name {
 
   .education {
     background-color: #19202b;
-    min-height: 700px; 
+    min-height: 700px;
     width: 100%;
     position: relative;
     margin: auto;
@@ -715,8 +687,7 @@ span#frase-name {
     color: white;
     margin: 10px 0;
   }
-  
-  
+
   .project .col-1 {
     display: flex;
     flex-wrap: wrap;
@@ -748,7 +719,7 @@ span#frase-name {
     padding: 0px 10px;
     width: 100%;
     margin: 10px auto;
-}
+  }
 
   .col-6.content-social-midia {
     color: #5077fb;
@@ -780,25 +751,48 @@ span#frase-name {
     padding: 20px;
     background-color: #000000;
     font-size: 13px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     line-height: 2.5;
     letter-spacing: 1.3px;
-   }
+  }
 
   .pointer:hover {
     border: #ffffff42 1px solid;
     padding: 10px;
     border-radius: 50%;
   }
-  
+
   span.pointer:hover {
     padding: 10px;
   }
 
+  .perfil {
+    text-align: center;
+    border-radius: 100%;
+    max-width: 155px;
+    margin-top: 150px;
+  }
+
+  .container.row.images-gallery {
+    margin-top: 5%;
+    overflow-y: scroll;
+    max-height: 600px;
+  }
+
+  .frase {
+    margin-top: 30px;
+    font-family: "Montserrat", cursive;
+  }
+  
+  span#frase-name {
+    font-size: 10px;
+    line-height: 1.5em;
+  }
+  
 }
 
 @media only screen and (min-width: 800px) {
-  .modal-curriculum{
+  .modal-curriculum {
     position: fixed;
     top: 5%;
     left: 40%;
@@ -808,7 +802,7 @@ span#frase-name {
     border: 1px solid #ffffff0f;
     padding: 20px;
     text-align: center;
-  }  
+  }
 
   .language {
     border-radius: 3px;
@@ -834,7 +828,7 @@ span#frase-name {
     padding: 15% 10px 15% 10px;
     font-size: 12px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0.3px;
     line-height: 2.5em;
     border-bottom: #6285fb 0.2px solid;
@@ -843,7 +837,7 @@ span#frase-name {
   .background-body {
     margin: 0;
     padding: 10px 20px 10px 120px;
-    background: url('../images/fundo.jpg');
+    background: url("../images/galeria/paisagem-praia-santinho.jpg");
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -851,7 +845,7 @@ span#frase-name {
   }
 
   .contact .row {
-    background: linear-gradient( 90deg, #19202b 50%, #5077fb 50%);
+    background: linear-gradient(90deg, #19202b 50%, #5077fb 50%);
   }
 
   .pointer:hover {
@@ -859,7 +853,7 @@ span#frase-name {
     padding: 10px;
     border-radius: 50%;
   }
-  
+
   span.pointer:hover {
     padding: 15px;
   }
@@ -871,8 +865,32 @@ span#frase-name {
     width: 100%;
     padding: 10px;
     color: white;
-  }  
+  }
 
+  .perfil {
+    text-align: center;
+    border-radius: 100%;
+    max-width: 240px;
+    margin-top: 150px;
+  }
+
+  .container.row.images-gallery {
+    margin-top: 5%;
+    overflow-y: scroll;
+    max-height: 550px;
+    margin-bottom: 350px;
+  }
+
+  .frase {
+    margin-top: 50px;
+    font-family: "Montserrat", cursive;
+  }
+  
+  span#frase-name {
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  
 }
 
 .modal-menu {
@@ -898,7 +916,6 @@ a.active-icon {
   border: none;
   border: 1px solid #5078fb47;
 }
-
 
 a.diseable-pointer {
   pointer-events: none;
@@ -934,11 +951,11 @@ a.active-icon:hover {
   border-radius: 3px;
 }
 
-.none-modal{
+.none-modal {
   display: none;
 }
 
-.modal-curriculum  {
+.modal-curriculum {
   letter-spacing: 0.3px;
   color: white;
   text-decoration: none;
@@ -962,7 +979,7 @@ a.active-icon:hover {
 .close {
   float: right;
 }
-.close button:hover{
+.close button:hover {
   color: #ffe000;
   text-decoration: none;
 }
