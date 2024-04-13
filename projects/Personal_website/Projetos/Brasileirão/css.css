@@ -1,0 +1,99 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: white;
+}
+
+.zona {
+  text-align: center;
+}
+
+.zona-libertadores {
+  color: blue;
+}
+
+.zona-preLibertadores {
+  color: orange;
+}
+
+.zona-sulAmericana {
+  color: green;
+}
+
+.zona-rebaixamento {
+  color: red;
+}
+
+@media (max-width: 560px) {
+  .brasao {
+    width: 60%;
+  }
+}
+@media (min-width: 560px) {
+  .brasao {
+    width: 25px;
+  }
+}
+
+table {
+  align-items: center;
+}
+
+.titulos-td {
+  color: rgba(189, 189, 189, 0.986);
+}
+.span-color {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: rgb(182, 182, 182);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-orange {
+  background-color: orange;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.indice {
+  margin-right: 10%;
+  padding: 1%;
+}
+
+.trofeu {
+  width: 25px;
+}
+
+.seta-rebaixados {
+  width: 10px;
+}
+
+.trofeu-index {
+  width: 15px;
+}

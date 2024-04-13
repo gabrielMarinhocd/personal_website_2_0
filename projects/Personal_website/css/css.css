@@ -1,0 +1,282 @@
+/* CSS do antigo style.css*/
+
+body {
+  background-color: #006164f8;
+}
+
+.conteudo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #006064;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+.sidenav {
+  color: white;
+  background-color: whitesmoke;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.nav-mobile,
+li {
+  text-decoration-color: white;
+  color: aliceblue;
+}
+
+/* ******************* */
+
+.meus-dados {
+  margin-top: 3%;
+  text-align: center;
+  padding: 3%;
+  color: #2196f3;
+}
+
+.minha-foto {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .sub-nome {
+    font-size: 20px;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .nome {
+    font-size: 25px;
+    color: #2195f3cb;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .sobre {
+    margin-top: 3%;
+    padding-top: 3%;
+    padding: 3%;
+    font-size: 1em;
+    color: white;
+  }
+
+  .title-sobre {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .zoom img {
+    height: 3em;
+    width: 3em;
+    display: inline;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .nome {
+    color: #2195f3cb;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .sub-nome {
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .sobre {
+    margin-top: 3%;
+    padding: 3%;
+    font-size: 20px;
+    color: white;
+  }
+  .title-sobre {
+    text-align: center;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+    font-size: 30px;
+    letter-spacing: revert;
+  }
+
+  .zoom img {
+    height: 10%;
+    width: 10%;
+    display: inline;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
+.redes-sociais {
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.icon {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.texto {
+  text-align: center;
+}
+
+.zoom {
+  margin: 1%;
+  display: inline;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#linkedim :hover {
+  color: chartreuse;
+}
+
+.img-carosel {
+  width: 100%;
+  height: 90%;
+}
+
+#pdf {
+  width: 3em;
+  height: 3em;
+}
+
+.curriculo {
+  display: grid;
+  grid-row: 2;
+}
+
+.carousel-item {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.center {
+  text-align: center;
+}
+
+.minha-carreira {
+  color: black;
+}
+
+.feedback {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.deactivate {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.social-media {
+  width: 40px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+#menu12 {
+  background-color: #0d47a1;
+}
+
+.icons-mobile-footer:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: -5px;
+}
+
+.linkedin:hover img {
+  background-color: #0a66c2;
+}
+
+.whatsapp:hover img {
+  background-color: rgba(9, 255, 38, 0.592);
+}
+
+.github:hover img {
+  background-color: #df40fb9a;
+}
+
+.icons-mobile-footer img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
