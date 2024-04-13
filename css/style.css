@@ -464,7 +464,6 @@ input#submit:hover {
   border: 0.5px solid #5077fb;
 }
 
-
 .copyrigth-content {
   padding: 60px;
   background-color: #000000;
@@ -491,8 +490,6 @@ span#text-name {
   line-height: 2.5;
   font-family: "Montserrat";
 }
-
-
 
 .perfil {
   text-align: center;
@@ -610,7 +607,7 @@ span#text-name {
 
   .background-body {
     margin: 0;
-    background: url("../images/galeria/paisagem-praia-santinho.jpg");
+    background: url("../images/Galeria/paisagem-praia-santinho.jpg");
     position: relative;
     min-height: 100vh;
     min-width: 100%;
@@ -783,12 +780,11 @@ span#text-name {
     margin-top: 30px;
     font-family: "Montserrat", cursive;
   }
-  
+
   span#frase-name {
     font-size: 10px;
     line-height: 1.5em;
   }
-  
 }
 
 @media only screen and (min-width: 800px) {
@@ -837,7 +833,7 @@ span#text-name {
   .background-body {
     margin: 0;
     padding: 10px 20px 10px 120px;
-    background: url("../images/galeria/paisagem-praia-santinho.jpg");
+    background: url("../images/Galeria/paisagem-praia-santinho.jpg");
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -885,12 +881,11 @@ span#text-name {
     margin-top: 50px;
     font-family: "Montserrat", cursive;
   }
-  
+
   span#frase-name {
     font-size: 15px;
     line-height: 1.5em;
   }
-  
 }
 
 .modal-menu {
