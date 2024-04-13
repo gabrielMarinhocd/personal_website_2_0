@@ -523,7 +523,7 @@ span#text-name {
     left: 30%;
   }
 
-  .modal-backdrop {
+  /* .modal-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -531,7 +531,7 @@ span#text-name {
     width: 100vw;
     height: AUTO;
     background-color: #000;
-  }
+  } */
 
   #gellery-desktop {
     display: NONE;
@@ -819,7 +819,7 @@ span#text-name {
   .mobile {
     display: none;
   }
-  
+
 
   .logo {
     padding: 15% 10px 15% 10px;
