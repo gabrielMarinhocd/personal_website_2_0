@@ -236,6 +236,8 @@ function alterLenguage(i) {
   insertYear();
 }
 
+insertYear();
+
 // document.querySelector('#usa').addEventListener('click', () => {
 //   body.innerHTML = englishBody;
 //   clickEducation()
