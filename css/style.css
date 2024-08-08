@@ -821,7 +821,6 @@ span#text-name {
     display: none;
   }
 
-
   .logo {
     padding: 15% 10px 15% 10px;
     font-size: 12px;
@@ -989,4 +988,8 @@ a#closeCurriculum {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.frase {
+  display: none;
 }
