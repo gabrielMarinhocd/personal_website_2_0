@@ -990,3 +990,7 @@ a#closeCurriculum {
   top: 10px;
   right: 10px;
 }
+
+div#gallery {
+    display: none;
+}
