@@ -789,11 +789,17 @@ const ptBr = `<div class="mobile">
                     gabrielMarinhocd
                   </li>
                 </ul>
-                <div class="frase center">
-                  <!-- <span id="frase-name">" O certo pelo certo sempre <br/> vai da certo "</span>
-                <br/>
-                <span id="text-name">Gabriel M. Santos</span> -->
-                </div>
+                <div class="phrase center">
+                    <span id="phrase-name">
+                      <i class="fa-solid fa-quote-left"></i>
+                          Corrida Hoje,<br /> Vitória Amanhã!
+                      <i class="fa-solid fa-quote-right"></i>
+                    </span>
+                    <br />
+                    <span id="text-name" style="margin-top: 20px; font-size: 10px;">
+                      Racionais NX Zero
+                    </span>
+                  </div>
               </div>
 
               <div id="feedback" class="container col-6 blue">

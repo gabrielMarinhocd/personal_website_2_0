@@ -398,7 +398,7 @@ li.social {
 .icon-contato i {
   background: #5077fb;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 18px 5px 5px;
   color: #181e29;
   font-weight: 400;
   margin-right: 2px;
@@ -608,7 +608,7 @@ span#text-name {
 
   .background-body {
     margin: 0;
-    background: url("../images/Galeria/paisagem-praia-santinho.jpg");
+    background: url("../images/Galeria/img-fundo-mackbook.jpg");
     position: relative;
     min-height: 100vh;
     min-width: 100%;
@@ -777,12 +777,12 @@ span#text-name {
     max-height: 600px;
   }
 
-  .frase {
+  .phrase {
     margin-top: 30px;
     font-family: "Montserrat", cursive;
   }
 
-  span#frase-name {
+  span#phrase-name {
     font-size: 10px;
     line-height: 1.5em;
   }
@@ -834,7 +834,7 @@ span#text-name {
   .background-body {
     margin: 0;
     padding: 10px 20px 10px 120px;
-    background: url("../images/Galeria/paisagem-praia-santinho.jpg");
+    background: url("../images/Galeria/img-fundo-mackbook.jpg");
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -878,13 +878,13 @@ span#text-name {
     margin-bottom: 350px;
   }
 
-  .frase {
+  .phrase {
     margin-top: 50px;
     font-family: "Montserrat", cursive;
   }
 
-  span#frase-name {
-    font-size: 15px;
+  span#phrase-name {
+    font-size: 24px;
     line-height: 1.5em;
   }
 }
@@ -994,6 +994,13 @@ div#gallery {
     display: none;
 }
 
-.frase {
-  display: none;
+.phrase {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+#phrase-name i{
+  font-size: 14px;
 }

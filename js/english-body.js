@@ -759,14 +759,14 @@ const englishBody = `<div class="mobile">
                     gabrielMarinhocd
                   </li>
                 </ul>
-                <div class="frase center">
-                  <span id="frase-name">
-                    "O futuro será a consequência do presente, parasita
-                    hoje, um coitado amanhã. <br />
-                    Corrida hoje, <b>vitória amanhã.</b>"
+                <div class="phrase center">
+                  <span id="phrase-name">
+                    <i class="fa-solid fa-quote-left"></i>
+                      Race Today,<br /> Win Tomorrow!
+                    <i class="fa-solid fa-quote-right"></i>
                   </span>
                   <br />
-                  <span id="text-name" style="margin-top: 20px">
+                  <span id="text-name" style="margin-top: 20px; font-size: 10px;">
                     Racionais NX Zero
                   </span>
                 </div>
