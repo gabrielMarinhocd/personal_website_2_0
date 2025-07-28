@@ -4,7 +4,7 @@ const englishBody = `<div class="mobile">
     <span class="navbar-brand mb-0 h1"
       ><img
         class="img-fluid logo"
-        src="./images/Logo/logo-gm-ondas.png"
+        src="./images/logo/logo-gm-ondas.png"
         alt=""
     /></span>
 
@@ -26,7 +26,7 @@ const englishBody = `<div class="mobile">
     <img
       class="img-fluid"
       id="br"
-      src="./images/icones/brazil-flag.png"
+      src="./images/icons/brazil-flag.png"
       alt="portuguese"
       onclick="alterLenguage(2)"
     />
@@ -35,7 +35,7 @@ const englishBody = `<div class="mobile">
     <img
       class="img-fluid"
       id="usa"
-      src="./images/icones/united-states.png"
+      src="./images/icons/united-states.png"
       alt="english"
       onclick="alterLenguage(1)"
     />
@@ -48,7 +48,7 @@ const englishBody = `<div class="mobile">
         <div class="menu desktop-menu">
           <div class="logo center">
             <img
-              src="./images/Logo/logo-gm-ondas.png"
+              src="./images/logo/logo-gm-ondas.png"
               alt="logo ondas - Gabriel Marinho"
               width="100px"
             />
@@ -107,18 +107,18 @@ const englishBody = `<div class="mobile">
             <div class="row">
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
-                  <img src="./images/projetos-img/studiojo.png" alt="" />
+                  <img src="./images/projects-imgs/studiojo.png" alt="" />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
-                  <img src="./images/projetos-img/teige.png" alt="" />
+                  <img src="./images/projects-imgs/teige.png" alt="" />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/martelinho-de-ouro.png"
+                    src="./images/projects-imgs/martelinho-de-ouro.png"
                     alt=""
                   />
                 </a>
@@ -126,7 +126,7 @@ const englishBody = `<div class="mobile">
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/assistencia_awp.png"
+                    src="./images/projects-imgs/assistencia_awp.png"
                     alt=""
                   />
                 </a>
@@ -136,27 +136,27 @@ const englishBody = `<div class="mobile">
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/controlhe-finaceiro.jpg"
+                    src="./images/projects-imgs/controlhe-finaceiro.jpg"
                     alt=""
                   />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
-                  <img src="./images/projetos-img/pokedex.jpg" alt="" />
+                  <img src="./images/projects-imgs/pokedex.jpg" alt="" />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer"> </a>
                 <img
-                  src="./images/projetos-img/tabela-brasileiro.jpg"
+                  src="./images/projects-imgs/tabela-brasileiro.jpg"
                   alt=""
                 />
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/app-mata-mosquito.jpg"
+                    src="./images/projects-imgs/app-mata-mosquito.jpg"
                     alt=""
                   />
                 </a>
@@ -867,7 +867,7 @@ const englishBody = `<div class="mobile">
           <div class="logo-modal center">
             <img
               class="img-fluid"
-              src="./images/Logo/logo-gm-ondas.png"
+              src="./images/logo/logo-gm-ondas.png"
               alt="logo ondas - Gabriel Marinho"
             />
             <div class="center">GABRIEL MARINHO DOS SANTOS</div>
@@ -932,20 +932,20 @@ const englishBody = `<div class="mobile">
                 <a href="#work" rel="noopener noreferrer">
                   <img
                     with=""
-                    src="./images/projetos-img/studiojo.png"
+                    src="./images/projects-imgs/studiojo.png"
                     alt=""
                   />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
-                  <img src="./images/projetos-img/teige.png" alt="" />
+                  <img src="./images/projects-imgs/teige.png" alt="" />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/martelinho-de-ouro.png"
+                    src="./images/projects-imgs/martelinho-de-ouro.png"
                     alt=""
                   />
                 </a>
@@ -953,7 +953,7 @@ const englishBody = `<div class="mobile">
               <div class="col-2">
                 <a href="#work" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/assistencia_awp.png"
+                    src="./images/projects-imgs/assistencia_awp.png"
                     alt=""
                   />
                 </a>
@@ -963,27 +963,27 @@ const englishBody = `<div class="mobile">
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/controlhe-finaceiro.jpg"
+                    src="./images/projects-imgs/controlhe-finaceiro.jpg"
                     alt=""
                   />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
-                  <img src="./images/projetos-img/pokedex.jpg" alt="" />
+                  <img src="./images/projects-imgs/pokedex.jpg" alt="" />
                 </a>
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer"> </a>
                 <img
-                  src="./images/projetos-img/tabela-brasileiro.jpg"
+                  src="./images/projects-imgs/tabela-brasileiro.jpg"
                   alt=""
                 />
               </div>
               <div class="col-2">
                 <a href="#project" rel="noopener noreferrer">
                   <img
-                    src="./images/projetos-img/app-mata-mosquito.jpg"
+                    src="./images/projects-imgs/app-mata-mosquito.jpg"
                     alt=""
                   />
                 </a>
@@ -1049,7 +1049,7 @@ const englishBody = `<div class="mobile">
               <img
                 class="img-fluid"
                 id="br"
-                src="./images/icones/brazil-flag.png"
+                src="./images/icons/brazil-flag.png"
                 alt="portuguese"
                 onclick="alterLenguage(2)"
               />
@@ -1058,7 +1058,7 @@ const englishBody = `<div class="mobile">
               <img
                 class="img-fluid"
                 id="usa"
-                src="./images/icones/united-states.png"
+                src="./images/icons/united-states.png"
                 alt="english"
                 onclick="alterLenguage(1)"
               />
@@ -1083,7 +1083,7 @@ const englishBody = `<div class="mobile">
     href="./docs/curriculo_desenvolvedor_gabriel_marinho-dos_santos-21-01-2025.pdf"
     target="_blank"
   >
-    <img class="icon-model" src="./images/icones/brazil-flag.png" />
+    <img class="icon-model" src="./images/icons/brazil-flag.png" />
     Português</a
   >
   ||
@@ -1091,7 +1091,7 @@ const englishBody = `<div class="mobile">
     href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS-13-04-2024.pdf"
     target="_blank"
   >
-    <img class="icon-model" src="./images/icones/united-states.png" />
+    <img class="icon-model" src="./images/icons/united-states.png" />
     English
   </a>
 </div>

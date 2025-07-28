@@ -196,5 +196,5 @@ inputValue.addEventListener('submit', (event) => event.preventDefault());
 // id: 'falcao-pipa',
 //   titulo: 'Falcão Pipa - TCC',
 //     link: 'https://falcao-pipa.herokuapp.com/ ',
-//       img: './Imagens/projetos-img/Falcao_pipa.png',
+//       img: './Imagens/projects-imgs/Falcao_pipa.png',
 //   },
