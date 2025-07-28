@@ -73,7 +73,7 @@ const ptBr = `<div class="mobile">
                 <a href="#work" rel="noopener noreferrer">Trabalhos</a>
               </li>
               <li>
-                <a href="#gallery" rel="noopener noreferrer">gallery</a>
+                <a href="#gallery" rel="noopener noreferrer">Galeria</a>
               </li>
               <li onclick="modalCurriculum()">
                 <a href="#" rel="noopener noreferrer"
@@ -413,7 +413,7 @@ const ptBr = `<div class="mobile">
         </div>
 
         <div id="gallery" class="gallery">
-          <h2 class="title">gallery</h2>
+          <h2 class="title">Galeria</h2>
 
           <div class="container row images-gallery">
             <div class="row">
@@ -922,7 +922,7 @@ const ptBr = `<div class="mobile">
                 <a href="#work" rel="noopener noreferrer">Trabalhos</a>
               </li>
               <li>
-                <a href="#gallery" rel="noopener noreferrer">gallery</a>
+                <a href="#gallery" rel="noopener noreferrer">Galeria</a>
               </li>
               <li
                 onclick="modalCurriculum()"
