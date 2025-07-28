@@ -73,7 +73,7 @@ const ptBr = `<div class="mobile">
                 <a href="#work" rel="noopener noreferrer">Trabalhos</a>
               </li>
               <li>
-                <a href="#gallery" rel="noopener noreferrer">Galeria</a>
+                <a href="#gallery" rel="noopener noreferrer">gallery</a>
               </li>
               <li onclick="modalCurriculum()">
                 <a href="#" rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const ptBr = `<div class="mobile">
           <div class="foto-gabriel">
             <img
               class="img-fluid perfil"
-              src="./images/Galeria/perfil-radios.png"
+              src="./images/gallery/perfil-radios.png"
               alt="Foto Gabriel"
             />
           </div>
@@ -413,17 +413,17 @@ const ptBr = `<div class="mobile">
         </div>
 
         <div id="gallery" class="gallery">
-          <h2 class="title">Galeria</h2>
+          <h2 class="title">gallery</h2>
 
           <div class="container row images-gallery">
             <div class="row">
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/escritorio.jpeg"
+                  href="./images/gallery/escritorio.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/escritorio.jpeg"
+                    src="./images/gallery/escritorio.jpeg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -432,11 +432,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/tcc-etb.jpg"
+                  href="./images/gallery/tcc-etb.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/tcc-etb.jpg"
+                    src="./images/gallery/tcc-etb.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -445,11 +445,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/mascara-bus.jpeg"
+                  href="./images/gallery/mascara-bus.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/mascara-bus.jpeg"
+                    src="./images/gallery/mascara-bus.jpeg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -458,38 +458,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/equipe-teigebrasil.jpeg"
+                  href="./images/gallery/equipe-teigebrasil.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/equipe-teigebrasil.jpeg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/equipe-mix7.jpeg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/equipe-mix7.jpeg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/friends-terceirao.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/friends-terceirao.jpg"
+                    src="./images/gallery/equipe-teigebrasil.jpeg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -499,11 +472,24 @@ const ptBr = `<div class="mobile">
 
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/friends.jpg"
+                  href="./images/gallery/equipe-mix7.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/friends.jpg"
+                    src="./images/gallery/equipe-mix7.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/friends-terceirao.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/friends-terceirao.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -513,11 +499,11 @@ const ptBr = `<div class="mobile">
 
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/formatura-ced06.jpeg"
+                  href="./images/gallery/friends.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/formatura-ced06.jpeg"
+                    src="./images/gallery/friends.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -527,102 +513,11 @@ const ptBr = `<div class="mobile">
 
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/frineds-etb.jpg"
+                  href="./images/gallery/formatura-ced06.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/frineds-etb.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/turma-uniplan.jpeg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/turma-uniplan.jpeg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/familia.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/familia.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/praia-barra-lagoa.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/praia-barra-lagoa.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/praia-santonho-vista.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/praia-santonho-vista.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/praia-ingleses.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/praia-ingleses.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/praia-joaquina.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/praia-joaquina.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mix7"
-                    data-lightbox="photos"
-                  />
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a
-                  href="./images/Galeria/praia-santinho-happy.jpg"
-                  data-lightbox="photos"
-                >
-                  <img
-                    src="./images/Galeria/praia-santinho-happy.jpg"
+                    src="./images/gallery/formatura-ced06.jpeg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -632,11 +527,11 @@ const ptBr = `<div class="mobile">
 
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/forte.jpg"
+                  href="./images/gallery/frineds-etb.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/forte.jpg"
+                    src="./images/gallery/frineds-etb.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -645,11 +540,89 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/praia-armacao.jpg"
+                  href="./images/gallery/turma-uniplan.jpeg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/praia-armacao.jpg"
+                    src="./images/gallery/turma-uniplan.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/familia.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/familia.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/praia-barra-lagoa.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/praia-barra-lagoa.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/praia-santonho-vista.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/praia-santonho-vista.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/praia-ingleses.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/praia-ingleses.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/praia-joaquina.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/praia-joaquina.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/praia-santinho-happy.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/praia-santinho-happy.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -659,11 +632,11 @@ const ptBr = `<div class="mobile">
 
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/home.jpg"
+                  href="./images/gallery/forte.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/home.jpg"
+                    src="./images/gallery/forte.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -672,11 +645,25 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/terno-igreja.jpg"
+                  href="./images/gallery/praia-armacao.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/terno-igreja.jpg"
+                    src="./images/gallery/praia-armacao.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/home.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/home.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -685,11 +672,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/praca-ktz.jpg"
+                  href="./images/gallery/terno-igreja.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/praca-ktz.jpg"
+                    src="./images/gallery/terno-igreja.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -698,11 +685,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/img-brasilia.jpg"
+                  href="./images/gallery/praca-ktz.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/img-brasilia.jpg"
+                    src="./images/gallery/praca-ktz.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -711,11 +698,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/balneario-2.jpg"
+                  href="./images/gallery/img-brasilia.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/balneario-2.jpg"
+                    src="./images/gallery/img-brasilia.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -724,11 +711,24 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-4">
                 <a
-                  href="./images/Galeria/balneario.jpg"
+                  href="./images/gallery/balneario-2.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/balneario.jpg"
+                    src="./images/gallery/balneario-2.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mix7"
+                    data-lightbox="photos"
+                  />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="./images/gallery/balneario.jpg"
+                  data-lightbox="photos"
+                >
+                  <img
+                    src="./images/gallery/balneario.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -737,11 +737,11 @@ const ptBr = `<div class="mobile">
               </div>
               <div class="col-md-12">
                 <a
-                  href="./images/Galeria/paisagem-praia-santinho.jpg"
+                  href="./images/gallery/paisagem-praia-santinho.jpg"
                   data-lightbox="photos"
                 >
                   <img
-                    src="./images/Galeria/paisagem-praia-santinho.jpg"
+                    src="./images/gallery/paisagem-praia-santinho.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mix7"
                     data-lightbox="photos"
@@ -922,7 +922,7 @@ const ptBr = `<div class="mobile">
                 <a href="#work" rel="noopener noreferrer">Trabalhos</a>
               </li>
               <li>
-                <a href="#gallery" rel="noopener noreferrer">Galeria</a>
+                <a href="#gallery" rel="noopener noreferrer">gallery</a>
               </li>
               <li
                 onclick="modalCurriculum()"

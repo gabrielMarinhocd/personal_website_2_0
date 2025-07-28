@@ -608,7 +608,7 @@ span#text-name {
 
   .background-body {
     margin: 0;
-    background: url("../images/Galeria/img-fundo-mackbook.jpg");
+    background: url("../images/gallery/img-fundo-mackbook.jpg");
     position: relative;
     min-height: 100vh;
     min-width: 100%;
@@ -834,7 +834,7 @@ span#text-name {
   .background-body {
     margin: 0;
     padding: 10px 20px 10px 120px;
-    background: url("../images/Galeria/img-fundo-mackbook.jpg");
+    background: url("../images/gallery/img-fundo-mackbook.jpg");
     background-size: cover;
     position: relative;
     min-height: 100vh;
