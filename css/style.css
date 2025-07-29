@@ -514,6 +514,7 @@ span#text-name {
     border: 1px solid #ffffff0f;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
   }
 
   .none {
@@ -809,6 +810,7 @@ span#text-name {
     border: 1px solid #ffffff0f;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
   }
 
   .language {
@@ -1025,10 +1027,18 @@ div#gallery {
   border-radius: 10px;
 }
 
-.contact  .col-12.center.copyrigth-content {
+.contact .col-12.center.copyrigth-content {
   border-radius: 0 0 10px 10px;
 }
 
 .menu.desktop-menu {
   border-radius: 10px;
+}
+
+ul.nopadding li.social a {
+  color: inherit;           /* Usa a cor do elemento pai */
+  text-decoration: none;    /* Remove o sublinhado */
+  display: flex;            /* Deixa ícone e texto lado a lado */
+  align-items: center;
+  gap: 8px;                 /* Espaçamento entre ícone e texto */
 }
