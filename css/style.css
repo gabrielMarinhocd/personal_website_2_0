@@ -199,6 +199,7 @@ input#input-search::placeholder {
   max-height: 700px;
   width: 100%;
   position: relative;
+  border-radius: 10px;
 }
 
 .foto-gabriel {
@@ -223,6 +224,7 @@ input#input-search::placeholder {
   min-height: 100%;
   width: 100%;
   position: relative;
+  border-radius: 10px;
 }
 
 h2.title {
@@ -280,7 +282,8 @@ h2.title {
 }
 
 .project img {
-  padding: 30px;
+  /* padding: 30px; */
+  border-radius: 10px;
 }
 
 .project .col-1 {
@@ -361,6 +364,7 @@ h2.title {
   background-color: #19202b;
   height: 700px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .gallery h2 {
@@ -384,6 +388,7 @@ h2.title {
   text-align: left;
   letter-spacing: 1.3px;
   font-weight: 400;
+  border-radius: 10px;
 }
 
 .col-6.content-social-midia {
@@ -637,6 +642,7 @@ span#text-name {
     width: 100%;
     position: relative;
     margin: 10px 0 0 0;
+  border-radius: 10px;
   }
 
   .home .content {
@@ -666,6 +672,7 @@ span#text-name {
     width: 100%;
     position: relative;
     margin: auto;
+    border-radius: 10px;
   }
 
   .box h4 {
@@ -684,6 +691,7 @@ span#text-name {
     height: auto;
     color: white;
     margin: 10px 0;
+    border-radius: 10px;
   }
 
   .project .col-1 {
@@ -702,6 +710,7 @@ span#text-name {
     padding: 20px 10px 55px 10px;
     height: auto;
     color: white;
+    border-radius: 10px;
   }
 
   .work .col-1 {
@@ -737,6 +746,7 @@ span#text-name {
     width: 100%;
     margin: auto;
     height: auto;
+    border-radius: 10px;
   }
 
   .desktop .col-4 {
@@ -815,6 +825,7 @@ span#text-name {
     width: 100%;
     padding: 10px;
     color: white;
+    border-radius: 10px;
   }
 
   .mobile {
@@ -862,6 +873,7 @@ span#text-name {
     width: 100%;
     padding: 10px;
     color: white;
+    border-radius: 10px;
   }
 
   .perfil {
@@ -1003,4 +1015,20 @@ div#gallery {
 
 #phrase-name i{
   font-size: 14px;
+}
+
+.fundo-tecnologias .img-fluid {
+  border-radius: 10px 10px 0 0;
+}
+
+.contact .row {
+  border-radius: 10px;
+}
+
+.contact  .col-12.center.copyrigth-content {
+  border-radius: 0 0 10px 10px;
+}
+
+.menu.desktop-menu {
+  border-radius: 10px;
 }
