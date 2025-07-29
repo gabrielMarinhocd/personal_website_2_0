@@ -4,7 +4,7 @@ const englishBody = `<div class="mobile">
     <span class="navbar-brand mb-0 h1"
       ><img
         class="img-fluid logo"
-        src="./images/logo/logo-gm-ondas.png"
+        src="./images/logo-gm-ondas.png"
         alt=""
     /></span>
 
@@ -48,7 +48,7 @@ const englishBody = `<div class="mobile">
         <div class="menu desktop-menu">
           <div class="logo center">
             <img
-              src="./images/logo/logo-gm-ondas.png"
+              src="./images/logo-gm-ondas.png"
               alt="logo ondas - Gabriel Marinho"
               width="100px"
             />
@@ -867,7 +867,7 @@ const englishBody = `<div class="mobile">
           <div class="logo-modal center">
             <img
               class="img-fluid"
-              src="./images/logo/logo-gm-ondas.png"
+              src="./images/logo-gm-ondas.png"
               alt="logo ondas - Gabriel Marinho"
             />
             <div class="center">GABRIEL MARINHO DOS SANTOS</div>
