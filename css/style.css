@@ -797,6 +797,15 @@ span#text-name {
     font-size: 10px;
     line-height: 1.5em;
   }
+
+  /* Texto CMD */
+  .animated-list li {
+    display: block;
+    margin-bottom: 10px;
+    white-space: pre;
+    font-size: 18px;
+    line-height: 1.2em;
+  }  
 }
 
 @media only screen and (min-width: 800px) {
@@ -900,6 +909,14 @@ span#text-name {
   span#phrase-name {
     font-size: 24px;
     line-height: 1.5em;
+  }
+
+  .animated-list li {
+    display: block;
+    margin-bottom: 10px;
+    white-space: pre;
+    font-size: 32px;
+    line-height: 1.2em;
   }
 }
 
@@ -1041,4 +1058,26 @@ ul.nopadding li.social a {
   display: flex;            /* Deixa ícone e texto lado a lado */
   align-items: center;
   gap: 8px;                 /* Espaçamento entre ícone e texto */
+}
+
+/* CMD */
+.animated-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1em;
+  background-color: white;
+  animation: blink 1s steps(2, start) infinite;
+  vertical-align: bottom;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
 }

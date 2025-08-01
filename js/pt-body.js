@@ -52,7 +52,7 @@ const ptBr = `<div class="mobile">
               alt="logo ondas - Gabriel Marinho"
               width="100px"
             />
-            <div class="center">GABRIEL MARINHO DOS SANTOS</div>
+            <div class="center">GABRIEL MARINHO</div>
           </div>
           <div class="link-menu">
             <ul>
@@ -245,11 +245,13 @@ const ptBr = `<div class="mobile">
             />
           </div>
           <div class="content">
-            <h1>Desenvolvedor Full Stack</h1>
-            <h3>Analista de Sistemas</h3>
-            <h3>Desenvolvedor WEB</h3>
-            <h3>Técnico em Informática</h3>
-            <h3>Web Designer</h3>
+              <ul id="animated-list" class="animated-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <span class="cursor" id="cursor">&nbsp;</span>
           </div>
         </div>
 
