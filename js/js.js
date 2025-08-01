@@ -1,3 +1,48 @@
+
+const phrasesPtBR = [
+  "Desenvolvedor Full Stack",
+  "Analista de Sistemas",
+  "Técnico em Informática",
+  "Web Designer"
+];
+
+const phrasesEnglish = [
+  "Full Stack Developer",
+  "Systems Analyst",
+  "Web developer",
+  "Computer Technician",
+];
+
+function startTypingEffect(phrases, containerSelector = "#animated-list li") {
+  const listItems = document.querySelectorAll(containerSelector);
+  const typingSpeed = 50;
+  const lineDelay = 500;
+
+  let currentLine = 0;
+
+  function typeLine(text, liElement, charIndex = 0) {
+    if (charIndex <= text.length) {
+      const typed = text.slice(0, charIndex);
+      liElement.innerHTML = `${typed}<span class="cursor"></span>`;
+
+      setTimeout(() => typeLine(text, liElement, charIndex + 1), typingSpeed);
+    } else {
+      liElement.textContent = text;
+      currentLine++;
+
+      if (currentLine < phrases.length) {
+        setTimeout(() => {
+          typeLine(phrases[currentLine], listItems[currentLine]);
+        }, lineDelay);
+      }
+    }
+  }
+
+  if (phrases.length > 0 && listItems.length >= phrases.length) {
+    typeLine(phrases[0], listItems[0]);
+  }
+}
+
 const clickEducation = () => {
   for (let i = 1; i <= 5; i++) {
     let education = document.querySelector(`#ed-0${i}`);
@@ -224,8 +269,10 @@ const insertYear = () => {
 function alterLenguage(i) {
   if (i == 1) {
     body.innerHTML = englishBody;
+    startTypingEffect(phrasesEnglish);
   } else {
     body.innerHTML = ptBr;
+    startTypingEffect(phrasesPtBR);
   }
   clickEducation();
   insertCarosel();
@@ -237,6 +284,8 @@ function alterLenguage(i) {
 }
 
 insertYear();
+startTypingEffect(phrasesPtBR);
+
 
 // document.querySelector('#usa').addEventListener('click', () => {
 //   body.innerHTML = englishBody;

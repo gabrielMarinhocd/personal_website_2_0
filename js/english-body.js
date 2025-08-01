@@ -52,7 +52,7 @@ const englishBody = `<div class="mobile">
               alt="logo ondas - Gabriel Marinho"
               width="100px"
             />
-            <div class="center">GABRIEL MARINHO DOS SANTOS</div>
+            <div class="center">GABRIEL MARINHO</div>
           </div>
           <div class="link-menu">
             <ul>
@@ -235,12 +235,15 @@ const englishBody = `<div class="mobile">
               alt="Foto Gabriel"
             />
           </div>
+          
           <div class="content">
-            <h1>Full Stack Developer</h1>
-            <h3>Systems Analyst</h3>
-            <h3>Web developer</h3>
-            <h3>Computer Technician</h3>
-            <h3>Web Designer</h3>
+              <ul id="animated-list" class="animated-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <span class="cursor" id="cursor">&nbsp;</span>
           </div>
         </div>
 
