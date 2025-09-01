@@ -1,5 +1,12 @@
 const menu = [
   {
+    id: 'order-map',
+    titulo: 'Order Map - Java/Angular',
+    link: 'diseable',
+    img: './images/projects-imgs/order-map.jpg',
+    github: 'https://github.com/gabrielMarinhocd/backend-order-map',
+  },
+  {
     id: 'site-pessoal',
     titulo: 'Site pessoal 1.0',
     link: './projects/Personal_website',
@@ -79,14 +86,14 @@ const menu = [
 ];
 
 const menuTrabalhos = [
-  {
-    id: 'awp-brasil',
-    titulo: 'Sistema AWP Brasil',
-    link: 'diseable',
-    subTitulo: 'Java',
-    img: './images/projects-imgs/assistencia_awp.png',
-    github: 'https://github.com/gabrielMarinhocd/ProjetoAWP'
-  },
+  // {
+  //   id: 'anaspol',
+  //   titulo: 'anaspol',
+  //   link: 'diseable',
+  //   subTitulo: 'Agular/Nodejs',
+  //   img: './images/projects-imgs/anaspol.png',
+  //   github: 'diseable'
+  // },
   {
     id: 'imperiojoias',
     titulo: 'Império Jóias',
