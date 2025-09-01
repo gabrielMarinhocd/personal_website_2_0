@@ -1120,7 +1120,7 @@ const ptBr = `<div class="mobile">
   ></a>
 </div>
 <a
-  href="./docs/curriculo_desenvolvedor_gabriel_marinho-dos_santos-21-01-2025.pdf"
+  href="./docs/curriculo_desenvolvedor_gabriel_marinho-01-09-2025.pdf"
   target="_blank"
 >
   <img class="icon-model" src="./images/icons/brazil-flag.png" />
