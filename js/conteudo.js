@@ -125,15 +125,15 @@ const menuTrabalhos = [
   //     subTitulo: 'Wordpress',
   //     img: './images/projects-imgs/timestyle.png',
   //   },
-  // {
-  //   id: 'teigetour',
-  //   titulo: 'Teigetour',
-  //   link: 'https://teigetour.com.br/',
-  //   subTitulo: 'Wordpress',
-  //   img:
-  //     'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
-  //   github: 'diseable'
-  // },
+  {
+    id: 'teigetour',
+    titulo: 'Teigetour',
+    link: 'https://teigetour.com.br/',
+    subTitulo: 'Wordpress',
+    img:
+      'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
+    github: 'diseable'
+  },
 ];
 
 const redesSociais = [
