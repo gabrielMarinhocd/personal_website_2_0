@@ -94,30 +94,30 @@ const menuTrabalhos = [
   //   img: './images/projects-imgs/anaspol.png',
   //   github: 'diseable'
   // },
-  {
-    id: 'imperiojoias',
-    titulo: 'Império Jóias',
-    link: 'diseable',
-    subTitulo: 'Wordpress',
-    img: './images/projects-imgs/imperio-joias.png',
-    github: 'diseable'
-  },
-  {
-    id: 'martelinhho',
-    titulo: 'Martelinho de Ouro',
-    link: 'diseable',
-    subTitulo: 'Wordpress',
-    img: './images/projects-imgs/martelinho-de-ouro.png',
-    github: 'diseable'
-  },
-  {
-    id: 'studiojo',
-    titulo: 'Studio Jo',
-    link: 'diseable',
-    subTitulo: 'Wordpress',
-    img: './images/projects-imgs/studiojo.png',
-    github: 'diseable'
-  },
+  // {
+  //   id: 'imperiojoias',
+  //   titulo: 'Império Jóias',
+  //   link: 'diseable',
+  //   subTitulo: 'Wordpress',
+  //   img: './images/projects-imgs/imperio-joias.png',
+  //   github: 'diseable'
+  // },
+  // {
+  //   id: 'martelinhho',
+  //   titulo: 'Martelinho de Ouro',
+  //   link: 'diseable',
+  //   subTitulo: 'Wordpress',
+  //   img: './images/projects-imgs/martelinho-de-ouro.png',
+  //   github: 'diseable'
+  // },
+  // {
+  //   id: 'studiojo',
+  //   titulo: 'Studio Jo',
+  //   link: 'diseable',
+  //   subTitulo: 'Wordpress',
+  //   img: './images/projects-imgs/studiojo.png',
+  //   github: 'diseable'
+  // },
   //   {
   //     id: 'timesstyle',
   //     titulo: 'Timeestyle Relógios',
@@ -125,15 +125,15 @@ const menuTrabalhos = [
   //     subTitulo: 'Wordpress',
   //     img: './images/projects-imgs/timestyle.png',
   //   },
-  {
-    id: 'teigetour',
-    titulo: 'Teigetour',
-    link: 'https://teigetour.com.br/',
-    subTitulo: 'Wordpress',
-    img:
-      'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
-    github: 'diseable'
-  },
+  // {
+  //   id: 'teigetour',
+  //   titulo: 'Teigetour',
+  //   link: 'https://teigetour.com.br/',
+  //   subTitulo: 'Wordpress',
+  //   img:
+  //     'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
+  //   github: 'diseable'
+  // },
 ];
 
 const redesSociais = [
