@@ -14,7 +14,7 @@
       "type": "image/png"
     },
     {
-      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas.png",
+      "src": "https://gabrielmsantos.com.br/images/logo-gm-black-background.png",
       "sizes": "1360x768",
       "type": "image/png"
     }
@@ -27,9 +27,9 @@
       "form_factor": "narrow"
     },
     {
-      "src": "https://gabrielmsantos.com.br/images/screens/screen-home-desktop.png",
+      "src": "https://gabrielmsantos.com.br/images/screens/screen-home-desktop.jpg",
       "sizes": "1919px872",
-      "type": "image/png",
+      "type": "image/jpg",
       "form_factor": "wide"
     }
   ]
