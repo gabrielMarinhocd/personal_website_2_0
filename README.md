@@ -9,7 +9,7 @@
   <div style="align-items: center; text-align: center;">
     <a href="http://youtu.be/9rcKEojHU4g" target="_blank" rel="noopener noreferrer">
       <img height="300px" width="500px"
-        src="" alt="Video" />
+        src="https://gabrielmsantos.com.br/images/play-video.jpg" alt="Video" />
     </a>
   </div>
 </div>
@@ -33,6 +33,7 @@
     <li>HTML/CSS</li>
     <li>Javascript</li>
     <li>Bootrapt 4.0</li>
+    <li>APP PWA</li>
     <li><a src="https://github.com/gabrielMarinhocd/registra_feedback">Api Feedback</a> -  
       Save the feedbacks in the database</li>
   </ul>
