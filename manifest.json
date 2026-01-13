@@ -9,12 +9,12 @@
   "theme_color": "#5077fb",
   "icons": [
     {
-      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas.png",
-      "sizes": "192x192",
+      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas-192px-108px.png",
+      "sizes": "191x108",
       "type": "image/png"
     },
     {
-      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas-192px-108px.png",
+      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas.png",
       "sizes": "1360x768",
       "type": "image/png"
     }
