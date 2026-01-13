@@ -21,13 +21,13 @@
   ],
   "screenshots": [
     {
-      "src": "https://lucee.acessoexterno.net/imgs/screen-home-mobile.png",
+      "src": "https://gabrielmsantos.com.br/images/screens/screen-home-mobile.png",
       "sizes": "1080x2400",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "https://lucee.acessoexterno.net/imgs/screen-home-desktop.png",
+      "src": "https://gabrielmsantos.com.br/images/screens/screen-home-desktop.png",
       "sizes": "1919px872",
       "type": "image/png",
       "form_factor": "wide"
