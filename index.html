@@ -3,9 +3,16 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Gabriel Marinho - Desevolvedor Full Stack | Desenvolvedor WEB</title>
   <link rel="icon" href="./images/icons/icon.png" />
+
+  <!-- Muda a cor da barro no topo -->
+  <meta name="theme-color" content="#098ccb" />
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json" />
 
   <!-- Apenas para a galeria -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
@@ -804,6 +811,12 @@
         English</a>
     </div>
   </div>
+  
+  <!-- BOTÃO INSTALAR -->
+  <button id="btn-install-pwa">
+    <i class="fa-solid fa-download"></i>
+    <span>Instalar App</span>
+  </button>
 
   <!-- Apenas para galeria -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -826,6 +839,61 @@
   <script src="./js/conteudo.js"></script>
   <script src="./js/starts.js"></script>
   <script src="./js/js.js"></script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/service-worker.js");
+    }
+  </script>
+
+  <!-- 🔹 PWA INSTALL (jQuery) -->
+  <script>
+    let deferredPrompt = null;
+
+    const $btn = () => $("#btn-install-pwa");
+    const $btnTexto = () => $btn().find("span");
+
+    function updateButtonPWA() {
+      const isStandalone =
+        window.matchMedia("(display-mode: standalone)").matches ||
+        window.navigator.standalone === true;
+
+      if (isStandalone) {
+        $btnTexto().text("Abrir App");
+        $btn().off("click").on("click", openPWA).css("display", "flex");
+      }
+    }
+
+    $(window).on("beforeinstallprompt", function (e) {
+      e.preventDefault();
+      deferredPrompt = e.originalEvent;
+
+      $btnTexto().text("Instalar App");
+      $btn().off("click").on("click", installPWA).css("display", "flex");
+    });
+
+    $(window).on("appinstalled", function () {
+      deferredPrompt = null;
+      updateButtonPWA();
+    });
+
+    function installPWA() {
+      if (!deferredPrompt) return;
+
+      deferredPrompt.prompt();
+
+      deferredPrompt.userChoice.then(() => {
+        deferredPrompt = null;
+      });
+    }
+
+    function openPWA() {
+      if (window.matchMedia("(display-mode: standalone)").matches) return;
+      window.location.href = window.location.href;
+    }
+
+    $(window).on("load", updateButtonPWA);
+  </script>
 </body>
 
 </html>

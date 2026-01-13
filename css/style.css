@@ -1081,3 +1081,52 @@ ul.nopadding li.social a {
     visibility: hidden;
   }
 }
+
+/* Botão Instalar PWA */
+#btn-install-pwa {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background-color: #5077fb;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  height: 48px;
+  width: 48px;
+  padding: 0 13px;
+
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+#btn-install-pwa i {
+  font-size: 18px;
+  min-width: 20px;
+  margin-right: 6px;
+}
+
+#btn-install-pwa span {
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+#btn-install-pwa:hover {
+  width: 160px; 
+}
+
+#btn-install-pwa:hover span {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
