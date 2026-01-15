@@ -50,6 +50,10 @@ body {
   color: #5077fb;
 }
 
+.desktop{
+  margin-top: auto;
+}
+
 .menu {
   float: left;
   background-color: #5077fb;
@@ -643,7 +647,7 @@ span#text-name {
     width: 100%;
     position: relative;
     margin: 10px 0 0 0;
-  border-radius: 10px;
+    border-radius: 10px;
   }
 
   .home .content {
@@ -782,6 +786,18 @@ span#text-name {
     margin-top: 150px;
   }
 
+  .foto-gabriel {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .home {
+    position: relative;
+  }
+
   .container.row.images-gallery {
     margin-top: 5%;
     overflow-y: scroll;
@@ -805,7 +821,7 @@ span#text-name {
     white-space: pre;
     font-size: 18px;
     line-height: 1.2em;
-  }  
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -1022,7 +1038,7 @@ a#closeCurriculum {
 }
 
 div#gallery {
-    display: none;
+  display: none;
 }
 
 .phrase {
@@ -1032,7 +1048,7 @@ div#gallery {
   font-size: 22px;
 }
 
-#phrase-name i{
+#phrase-name i {
   font-size: 14px;
 }
 
@@ -1053,11 +1069,11 @@ div#gallery {
 }
 
 ul.nopadding li.social a {
-  color: inherit;           /* Usa a cor do elemento pai */
-  text-decoration: none;    /* Remove o sublinhado */
-  display: flex;            /* Deixa ícone e texto lado a lado */
+  color: inherit; /* Usa a cor do elemento pai */
+  text-decoration: none; /* Remove o sublinhado */
+  display: flex; /* Deixa ícone e texto lado a lado */
   align-items: center;
-  gap: 8px;                 /* Espaçamento entre ícone e texto */
+  gap: 8px; /* Espaçamento entre ícone e texto */
 }
 
 /* CMD */
@@ -1123,7 +1139,7 @@ ul.nopadding li.social a {
 }
 
 #btn-install-pwa:hover {
-  width: 160px; 
+  width: 160px;
 }
 
 #btn-install-pwa:hover span {
