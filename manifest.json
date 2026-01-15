@@ -9,13 +9,13 @@
   "theme_color": "#5077fb",
   "icons": [
     {
-      "src": "https://gabrielmsantos.com.br/images/logo-gm-192px-192px.png",
-      "sizes": "192x192",
+      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas-140px-140px.png",
+      "sizes": "140x140",
       "type": "image/png"
     },
     {
-      "src": "https://gabrielmsantos.com.br/images/logo-gm-black-background.png",
-      "sizes": "1360x768",
+      "src": "https://gabrielmsantos.com.br/images/logo-gm-ondas-1080px-1080px.png",
+      "sizes": "1080x1080",
       "type": "image/png"
     }
   ],
@@ -28,7 +28,7 @@
     },
     {
       "src": "https://gabrielmsantos.com.br/images/screens/screen-home-desktop.jpg",
-      "sizes": "1919px872",
+      "sizes": "1919x872",
       "type": "image/jpg",
       "form_factor": "wide"
     }
