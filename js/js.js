@@ -287,6 +287,25 @@ insertYear();
 startTypingEffect(phrasesPtBR);
 
 
+// Impede o especionar elemento
+$(function () {
+    $(document)
+        .on("contextmenu", (e) => e.preventDefault())
+        .on("selectstart", (e) => e.preventDefault());
+});
+
+// Caso acione o especionar elemento aparece o debugger repetidas vezes, dificulta a navegação.
+setInterval(() => {
+    const start = performance.now();
+    debugger;
+    const end = performance.now();
+
+    if (end - start > 100) {
+        console.log("DevTools detectado. Feche o para continuar utilizando o sistema.");
+        console.log("Caso deseje ver/analisar o código, acesse o repositorio: https://github.com/gabrielMarinhocd/personal_website_2_0");
+    }
+}, 1000);
+
 // document.querySelector('#usa').addEventListener('click', () => {
 //   body.innerHTML = englishBody;
 //   clickEducation()
