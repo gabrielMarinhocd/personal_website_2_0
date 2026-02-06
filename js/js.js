@@ -286,27 +286,21 @@ function alterLenguage(i) {
 insertYear();
 startTypingEffect(phrasesPtBR);
 
+// Impede o especionar elemento
+ $(function () {
+  $(document)
+      .on("contextmenu", (e) => e.preventDefault())
+      .on("selectstart", (e) => e.preventDefault());
+});
 
-// document.querySelector('#usa').addEventListener('click', () => {
-//   body.innerHTML = englishBody;
-//   clickEducation()
-//   insertCarosel();
-//   insertCaroselTrabalhos();
-//   showDivs(slideIndex);
-//   showDivsWork(slideWork);
-//   console.log('usa');
-// })
+// Caso acione o especionar elemento aparece o debugger repetidas vezes, dificulta a navegação.
+setInterval(() => {
+  const start = performance.now();
+  debugger;
+  const end = performance.now();
 
-// document.querySelector('#br').addEventListener('click', () => {
-//   body.innerHTML = ptBr;
-//   clickEducation()
-//   insertCarosel();
-//   insertCaroselTrabalhos();
-//   showDivs(slideIndex);
-//   showDivsWork(slideWork);
-//   console.log('br');
-// })
-
-// const openEducation = () =>{
-//     education.style.display = 'none';
-// }
+  if (end - start > 100) {
+      console.log("DevTools detectado. Feche o para continuar utilizando o sistema.");
+      console.log("Para ver o codigo acesso o repositoryo. https://github.com/gabrielMarinhocd/personal_website_2_0");
+  }
+}, 1000);
