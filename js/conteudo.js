@@ -1,5 +1,19 @@
 const menu = [
   {
+    id: 'financial-control',
+    titulo: 'Financial Control - Angular',
+    link: 'https://financial-control-ce878.web.app',
+    img: './images/projects-imgs/financial-control.png',
+    github: 'https://github.com/gabrielMarinhocd/financial-control',
+  },
+  {
+    id: 'api_node_jwt_swagger',
+    titulo: 'API de Pedidos com JWT/Swagger - Typescript/Nodejs/PostgresSQL',
+    link: 'diseable',
+    img: './images/projects-imgs/api_node_jwt_swagger.png',
+    github: 'https://github.com/gabrielMarinhocd/api_node_jwt_swagger',
+  },
+  {
     id: 'order-map',
     titulo: 'Order Map - Java/Angular',
     link: 'diseable',
