@@ -1083,7 +1083,7 @@ const englishBody = `<div class="mobile">
     ></a>
   </div>
   <a
-    href="./docs/curriculo_desenvolvedor_gabriel_marinho-dos_santos-19-01-2026.pdf"
+    href="./docs/curriculo_desenvolvedor_gabriel_marinho-java-27-03-2026.pdf"
     target="_blank"
   >
     <img class="icon-model" src="./images/icons/brazil-flag.png" />
