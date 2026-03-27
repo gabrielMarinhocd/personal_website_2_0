@@ -231,7 +231,7 @@ const englishBody = `<div class="mobile">
           <div class="foto-gabriel">
             <img
               class="img-fluid perfil"
-              src="./images/gallery/photo-linkedin.png"
+              src="./images/photo-linkedin.png"
               alt="Foto Gabriel"
             />
           </div>
