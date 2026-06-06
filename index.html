@@ -5,7 +5,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gabriel M. Santos - Desevolvedor Full Stack | Desenvolvedor WEB</title>
+  <title>
+    Gabriel M. Santos - Desevolvedor Full Stack | Desenvolvedor WEB
+  </title>
   <link rel="icon" href="./images/icons/icon.png" />
 
   <!-- Muda a cor da barro no topo -->
@@ -68,16 +70,26 @@
     </div>
 
     <div class="container background-body">
-      <div class="language none">
-        <span class="brazil">
-          <img class="img-fluid" id="br" src="./images/icons/brazil-flag.png" alt="portuguese"
-            onclick="alterLenguage(2)" />
-        </span>
-        <span class="usa">
-          <img class="img-fluid" id="usa" src="./images/icons/united-states.png" alt="english"
-            onclick="alterLenguage(1)" />
-        </span>
-      </div>
+      <!-- <div class="language none">
+          <span class="brazil">
+            <img
+              class="img-fluid"
+              id="br"
+              src="./images/icons/brazil-flag.png"
+              alt="portuguese"
+              onclick="alterLenguage(2)"
+            />
+          </span>
+          <span class="usa">
+            <img
+              class="img-fluid"
+              id="usa"
+              src="./images/icons/united-states.png"
+              alt="english"
+              onclick="alterLenguage(1)"
+            />
+          </span>
+        </div> -->
 
       <div class="container">
         <div class="container overflow-hidden body desktop">
@@ -105,8 +117,9 @@
                     <li>
                       <a href="#gallery" rel="noopener noreferrer">Galeria</a>
                     </li>
-                    <li onclick="modalCurriculum()">
-                      <a href="#" rel="noopener noreferrer">Crurriculo
+                    <li>
+                      <a href="./docs/curriculo_desenvolvedor_gabriel_marinho-java-06-06-2026_compressed.pdf"
+                        target="_blank" rel="noopener noreferrer">Crurrículo
                         <i id="icon-download" class="fas fa-download"></i></a>
                     </li>
                     <li>
@@ -128,7 +141,7 @@
                 </div> -->
 
                 <div class="container higthlights center">
-                  <br>
+                  <br />
 
                   <div class="title-menu">
                     <h3>Destaques recentes</h3>
@@ -313,7 +326,11 @@
                           <i class="fas fa-arrow-left rigth"></i>
                         </span>
                       </div>
-                      <div id="carrosel" class="col-10"></div>
+
+                      <div id="carrosel" class="col-10">
+                        <!-- Itens carrosel -->
+                      </div>
+
                       <div class="col-1">
                         <span class="pointer" onclick="plusDivs(-1)">
                           <i class="fas fa-arrow-right"></i>
@@ -323,7 +340,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div id="contact" class="container contact">
                 <div class="container nopadding">
                   <div class="row">
@@ -470,8 +487,9 @@
                     <li>
                       <a href="#gallery" rel="noopener noreferrer">Galeria</a>
                     </li>
-                    <li onclick="modalCurriculum()" data-bs-dismiss="modal" aria-label="Close">
-                      <a href="#" rel="noopener noreferrer">Crurriculo
+                    <li data-bs-dismiss="modal" aria-label="Close">
+                      <a href="./docs/curriculo_desenvolvedor_gabriel_marinho-java-06-06-2026_compressed.pdf"
+                        target="_blank" rel="noopener noreferrer">Crurriculo
                         <i id="icon-download" class="fas fa-download"></i></a>
                     </li>
                     <li>
@@ -493,7 +511,7 @@
                 </div> -->
 
                 <div class="container higthlights center">
-                  <br>
+                  <br />
 
                   <div class="title-menu">
                     <h3>Destaques recentes</h3>
@@ -545,16 +563,26 @@
                   </div>
                 </div>
 
-                <div class="language">
-                  <span class="brazil">
-                    <img class="img-fluid" id="br" src="./images/icons/brazil-flag.png" alt="portuguese"
-                      onclick="alterLenguage(2)" />
-                  </span>
-                  <span class="usa">
-                    <img class="img-fluid" id="usa" src="./images/icons/united-states.png" alt="english"
-                      onclick="alterLenguage(1)" />
-                  </span>
-                </div>
+                <!-- <div class="language">
+                    <span class="brazil">
+                      <img
+                        class="img-fluid"
+                        id="br"
+                        src="./images/icons/brazil-flag.png"
+                        alt="portuguese"
+                        onclick="alterLenguage(2)"
+                      />
+                    </span>
+                    <span class="usa">
+                      <img
+                        class="img-fluid"
+                        id="usa"
+                        src="./images/icons/united-states.png"
+                        alt="english"
+                        onclick="alterLenguage(1)"
+                      />
+                    </span>
+                  </div> -->
               </div>
             </div>
           </div>
@@ -562,19 +590,32 @@
       </div>
     </div>
 
-    <div class="none-modal">
-      <h5>Curriculo:</h5>
-      <div class="close" id="closeCurriculum">
-        <a id="closeCurriculum" type="button" class="btn-close" onclick="closeCurriculum()"></a>
-      </div>
-      <a href="./docs/curriculo_desenvolvedor_gabriel_marinho-java-06-06-2026_compressed.pdf" target="_blank">
-        <img class="icon-model" src="./images/icons/brazil-flag.png" />
-        Português</a>
-      ||
-      <a href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS-13-04-2024.pdf" target="_blank">
-        <img class="icon-model" src="./images/icons/united-states.png" />
-        English</a>
-    </div>
+    <!-- <div class="none-modal">
+        <h5>Curriculo:</h5>
+        <div class="close" id="closeCurriculum">
+          <a
+            id="closeCurriculum"
+            type="button"
+            class="btn-close"
+            onclick="closeCurriculum()"
+          ></a>
+        </div>
+        <a
+          href="./docs/curriculo_desenvolvedor_gabriel_marinho-java-06-06-2026_compressed.pdf"
+          target="_blank"
+        >
+          <img class="icon-model" src="./images/icons/brazil-flag.png" />
+          Português</a
+        >
+        ||
+        <a
+          href="./docs/english-curriculo_desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS-13-04-2024.pdf"
+          target="_blank"
+        >
+          <img class="icon-model" src="./images/icons/united-states.png" />
+          English</a
+        >
+      </div> -->
   </div>
 
   <!-- BOTÃO INSTALAR -->
