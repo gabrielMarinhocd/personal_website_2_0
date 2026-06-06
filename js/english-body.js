@@ -49,10 +49,10 @@ const englishBody = `<div class="mobile">
           <div class="logo center">
             <img
               src="./images/logo-gm-ondas.png"
-              alt="logo ondas - Gabriel Marinho"
+              alt="logo ondas - Gabriel M. Santos"
               width="100px"
             />
-            <div class="center">GABRIEL MARINHO</div>
+            <div class="center">Gabriel M. Santos</div>
           </div>
           <div class="link-menu">
             <ul>
@@ -838,7 +838,7 @@ const englishBody = `<div class="mobile">
                   reserved</span
                 >
                 <br />
-                <span class="name">GABRIEL MARINHO</span>
+                <span class="name">Gabriel M. Santos</span>
               </div>
             </div>
           </div>
@@ -871,9 +871,9 @@ const englishBody = `<div class="mobile">
             <img
               class="img-fluid"
               src="./images/logo-gm-ondas.png"
-              alt="logo ondas - Gabriel Marinho"
+              alt="logo ondas - Gabriel M. Santos"
             />
-            <div class="center">GABRIEL MARINHO DOS SANTOS</div>
+            <div class="center">Gabriel M. Santos DOS SANTOS</div>
           </div>
 
           <div class="link-menu">
