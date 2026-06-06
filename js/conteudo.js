@@ -99,56 +99,6 @@ const menu = [
   },
 ];
 
-const menuTrabalhos = [
-  // {
-  //   id: 'anaspol',
-  //   titulo: 'anaspol',
-  //   link: 'diseable',
-  //   subTitulo: 'Agular/Nodejs',
-  //   img: './images/projects-imgs/anaspol.png',
-  //   github: 'diseable'
-  // },
-  // {
-  //   id: 'imperiojoias',
-  //   titulo: 'Império Jóias',
-  //   link: 'diseable',
-  //   subTitulo: 'Wordpress',
-  //   img: './images/projects-imgs/imperio-joias.png',
-  //   github: 'diseable'
-  // },
-  // {
-  //   id: 'martelinhho',
-  //   titulo: 'Martelinho de Ouro',
-  //   link: 'diseable',
-  //   subTitulo: 'Wordpress',
-  //   img: './images/projects-imgs/martelinho-de-ouro.png',
-  //   github: 'diseable'
-  // },
-  // {
-  //   id: 'studiojo',
-  //   titulo: 'Studio Jo',
-  //   link: 'diseable',
-  //   subTitulo: 'Wordpress',
-  //   img: './images/projects-imgs/studiojo.png',
-  //   github: 'diseable'
-  // },
-  //   {
-  //     id: 'timesstyle',
-  //     titulo: 'Timeestyle Relógios',
-  //     link: 'http://timestyle.siteprofissional.com',
-  //     subTitulo: 'Wordpress',
-  //     img: './images/projects-imgs/timestyle.png',
-  //   },
-  {
-    id: 'teigetour',
-    titulo: 'Teigetour',
-    link: 'https://teigetour.com.br/',
-    subTitulo: 'Wordpress',
-    img:
-      'https://teigetour.com.br/wp-content/uploads/2023/01/logo-teigetour.png',
-    github: 'diseable'
-  },
-];
 
 const redesSociais = [
   {
@@ -168,26 +118,3 @@ const redesSociais = [
     img: './images/linkedin-sign_icon-icons.com_73508.png',
   },
 ];
-
-//Trabalhos mix7
-//  {
-//     id: 'valorum',
-//     titulo: 'Valorum',
-//     link: 'https://valorum.com.br/',
-//     subTitulo: 'Mix7',
-//     img: './images/projects-imgs/Valorum.png',
-//   },
-//   {
-//     id: 'folha-dedetizadora',
-//     titulo: 'Folha Detdetizadora',
-//     subTitulo: 'Mix7',
-//     link: 'https://folhadedetizadora.com.br/',
-//     img: './images/projects-imgs/folha-dedetizadora.png',
-//   },
-//   {
-//     id: 'aria-pilates',
-//     titulo: 'Aria Pilates',
-//     subTitulo: 'Mix7',
-//     link: 'https://ariapilates.com.br/',
-//     img: './images/projects-imgs/Aria-pilates.png',
-//   },

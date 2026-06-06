@@ -1,4 +1,3 @@
-
 const phrasesPtBR = [
   "Desenvolvedor Full Stack",
   "Analista de Sistemas",
@@ -106,58 +105,8 @@ const insertCarosel = () => {
   caroselHTML.innerHTML = gradeHTML;
 };
 
-const insertCaroselTrabalhos = () => {
-  const caroselHTML = document.querySelector("#carosel-work");
-
-  let gradeHTML = "";
-  menuTrabalhos.forEach(({ id, titulo, link, img, subTitulo, github }) => {
-    let aContent = "";
-    let gContet = "";
-    if (github == "diseable") {
-      gContent = `<a class="diseable-pointer" >    <span class="icone-git-hub ">
-      <i class="fab fa-github"></i>
-    </span> </a>`;
-    } else {
-      gContent = `<a class="active-icon" href="${github}" target="_blank" rel="noopener noreferrer >
-                    <span class="icone-git-hub ">
-                      <i class="fab fa-github"></i>
-                    </span>
-                  </a>`;
-    }
-
-    if (link == "diseable") {
-      aContent = ` <a class="diseable-pointer"> <span class="icon-open">
-      <i class="fas fa-external-link-alt"></i>
-    </span> </a>`;
-    } else {
-      aContent = `<a class="active-icon" href="${link}" target="_blank" rel="noopener noreferrer >
-          <span class="icon-open">
-            <i class="fas fa-external-link-alt"></i>
-          </span>
-        </a>`;
-    }
-
-    gradeHTML += ` <div id="${id}" class="slide-work">
-                      <div class="slide">
-                        <img class="img-fluid" src="${img}" alt="">
-                        <div class="icon-slide">
-                          ${gContent}
-                           ${aContent}
-                           
-                        </div>
-                      </div>
-                      <span id="title-${id}">${titulo} </span>
-                      <br />
-                      <span id="sub-title-${id}">${subTitulo} </span>
-                    </div>`;
-  });
-
-  caroselHTML.innerHTML = gradeHTML;
-};
-
 clickEducation();
 insertCarosel();
-insertCaroselTrabalhos();
 
 let slideIndex = 1;
 showDivs(slideIndex);
@@ -179,28 +128,6 @@ function showDivs(n) {
     x[i].style.display = "none";
   }
   x[slideIndex - 1].style.display = "block";
-}
-
-let slideWork = 1;
-showDivsWork(slideWork);
-
-function plusDivsWork(n) {
-  showDivsWork((slideWork += n));
-}
-
-function showDivsWork(n) {
-  let i;
-  let x = document.getElementsByClassName("slide-work");
-  if (n > x.length) {
-    slideWork = 1;
-  }
-  if (n < 1) {
-    slideWork = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideWork - 1].style.display = "block";
 }
 
 const divFeedback = document.querySelector("#feedback");
@@ -276,9 +203,9 @@ function alterLenguage(i) {
   }
   clickEducation();
   insertCarosel();
-  insertCaroselTrabalhos();
+  // insertCaroselTrabalhos();
   showDivs(slideIndex);
-  showDivsWork(slideWork);
+  // showDivsWork(slideWork);
   Avaliar();
   insertYear();
 }
