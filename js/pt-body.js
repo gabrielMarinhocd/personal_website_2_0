@@ -240,7 +240,7 @@ const ptBr = `<div class="mobile">
           <div class="foto-gabriel">
             <img
               class="img-fluid perfil"
-              src="./images/photo-linkedin.png"
+              src="./images/foto-Gabriel.jpeg"
               alt="Foto Gabriel"
             />
           </div>
